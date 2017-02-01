@@ -1,0 +1,878 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY DTO "http://dto.org/DTO/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY life "http://www.lifekb.org/life#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY bto "http://purl.obolibrary.org/obo/bto#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dto "http://www.drugtargetontology.org/dto/" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY core "http://purl.obolibrary.org/obo/uberon/core#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/vocabulary_nr_protein.owl#"
+     xml:base="http://www.drugtargetontology.org/dto/vocabulary_nr_protein.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:life="http://www.lifekb.org/life#"
+     xmlns:core="&obo;uberon/core#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:bto="&obo;bto#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dto="http://www.drugtargetontology.org/dto/"
+     xmlns:DTO="http://dto.org/DTO/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/vocabulary_nr_protein.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/definition -->
+
+    <owl:AnnotationProperty rdf:about="&dto;definition"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/geneSymbol -->
+
+    <owl:AnnotationProperty rdf:about="&dto;geneSymbol"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/geneSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&dto;geneSynonym"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/uniprot_xref -->
+
+    <owl:AnnotationProperty rdf:about="&dto;uniprot_xref"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00100000 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00102000 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00102000">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117459 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117459">
+        <rdfs:label rdf:datatype="&xsd;string">Dax-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117460 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117460">
+        <rdfs:label rdf:datatype="&xsd;string">Thyroid hormone receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117461 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117461">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117462 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117462">
+        <rdfs:label rdf:datatype="&xsd;string">Peroxisome proliferator-activated receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117463 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117463">
+        <rdfs:label rdf:datatype="&xsd;string">Rev-erb receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117464 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117464">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid-related orphans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117465 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117465">
+        <rdfs:label rdf:datatype="&xsd;string">Liver x receptor-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117466 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117466">
+        <rdfs:label rdf:datatype="&xsd;string">Vitamin d receptor-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117467 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117467">
+        <rdfs:label rdf:datatype="&xsd;string">Hepatocyte nuclear factor-4 receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117468 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117468">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoid x receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117469 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117469">
+        <rdfs:label rdf:datatype="&xsd;string">Testicular receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117470 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117470">
+        <rdfs:label rdf:datatype="&xsd;string">Tailless-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117471 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117471">
+        <rdfs:label rdf:datatype="&xsd;string">Coup-tf-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117472 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117472">
+        <rdfs:label rdf:datatype="&xsd;string">Estrogen receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117473 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117473">
+        <rdfs:label rdf:datatype="&xsd;string">Estrogen-related receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117474 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117474">
+        <rdfs:label rdf:datatype="&xsd;string">3-ketosteroid receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117475 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117475">
+        <rdfs:label rdf:datatype="&xsd;string">Nerve growth factor ib-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117476 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117476">
+        <rdfs:label rdf:datatype="&xsd;string">Fushi tarazu f1-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117477 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117477">
+        <rdfs:label rdf:datatype="&xsd;string">Germ cell nuclear factor receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00102000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117478 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117478">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 0 group b member 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117459"/>
+        <dto:geneSymbol>NR0B1</dto:geneSymbol>
+        <dto:uniprot_xref>P51843</dto:uniprot_xref>
+        <dto:definition>A nuclear receptor subfamily 0 group B member 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P51843] </dto:definition>
+        <dto:geneSynonym>DAX1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117479 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117479">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 0 group b member 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117459"/>
+        <dto:uniprot_xref>Q15466</dto:uniprot_xref>
+        <dto:definition>A nuclear receptor subfamily 0 group B member 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q15466] </dto:definition>
+        <dto:geneSymbol>NR0B2</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117480 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117480">
+        <rdfs:label rdf:datatype="&xsd;string">Thyroid hormone receptor alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117460"/>
+        <dto:definition>A thyroid hormone receptor alpha that is encoded in the genome of human. [PRO:HJD, UniProtKB:P10827] </dto:definition>
+        <dto:geneSymbol>THRA</dto:geneSymbol>
+        <dto:geneSynonym>ERBA1</dto:geneSynonym>
+        <dto:uniprot_xref>P10827</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117481 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117481">
+        <rdfs:label rdf:datatype="&xsd;string">Thyroid hormone receptor beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117460"/>
+        <dto:definition>A thyroid hormone receptor beta that is encoded in the genome of human. [PRO:DNx, UniProtKB:P10828] </dto:definition>
+        <dto:uniprot_xref>P10828</dto:uniprot_xref>
+        <dto:geneSymbol>THRB</dto:geneSymbol>
+        <dto:geneSynonym>NR1A2</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117482 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117482">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid receptor alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117461"/>
+        <dto:definition>A retinoic acid receptor alpha that is encoded in the genome of human. [PRO:DNx, UniProtKB:P10276] </dto:definition>
+        <dto:uniprot_xref>P10276</dto:uniprot_xref>
+        <dto:geneSymbol>RARA</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117483 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117483">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid receptor beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117461"/>
+        <dto:uniprot_xref>P10826</dto:uniprot_xref>
+        <dto:definition>A retinoic acid receptor beta that is encoded in the genome of human. [PRO:DNx, UniProtKB:P10826] </dto:definition>
+        <dto:geneSymbol>RARB</dto:geneSymbol>
+        <dto:geneSynonym>NR1B2</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117484 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117484">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid receptor gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117461"/>
+        <dto:uniprot_xref>P13631</dto:uniprot_xref>
+        <dto:geneSymbol>RARG</dto:geneSymbol>
+        <dto:definition>A retinoic acid receptor gamma that is encoded in the genome of human. [PRO:DNx, UniProtKB:P13631] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117485 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117485">
+        <rdfs:label rdf:datatype="&xsd;string">Peroxisome proliferator-activated receptor alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117462"/>
+        <dto:geneSynonym>PPAR</dto:geneSynonym>
+        <dto:geneSymbol>PPARA</dto:geneSymbol>
+        <dto:uniprot_xref>Q07869</dto:uniprot_xref>
+        <dto:definition>A peroxisome proliferator-activated receptor alpha that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q07869] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117486 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117486">
+        <rdfs:label rdf:datatype="&xsd;string">Peroxisome proliferator-activated receptor delta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117462"/>
+        <dto:geneSynonym>PPARB</dto:geneSynonym>
+        <dto:uniprot_xref>Q03181</dto:uniprot_xref>
+        <dto:definition>A peroxisome proliferator-activated receptor delta that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q03181] </dto:definition>
+        <dto:geneSymbol>PPARD</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117487 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117487">
+        <rdfs:label rdf:datatype="&xsd;string">Peroxisome proliferator-activated receptor gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117462"/>
+        <dto:uniprot_xref>P37231</dto:uniprot_xref>
+        <dto:definition>A peroxisome proliferator-activated receptor gamma that is encoded in the genome of human. [PRO:DNx, UniProtKB:P37231] </dto:definition>
+        <dto:geneSymbol>PPARG</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117488 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117488">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 1 group d member 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117463"/>
+        <dto:definition>A nuclear receptor subfamily 1 group D member 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P20393] </dto:definition>
+        <dto:geneSynonym>HREV</dto:geneSynonym>
+        <dto:uniprot_xref>P20393</dto:uniprot_xref>
+        <dto:geneSymbol>NR1D1</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117489 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117489">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 1 group d member 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117463"/>
+        <dto:uniprot_xref>Q14995</dto:uniprot_xref>
+        <dto:geneSymbol>NR1D2</dto:geneSymbol>
+        <dto:definition>A nuclear receptor subfamily 1 group D member 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q14995] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117490 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117490">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor ror-alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117464"/>
+        <dto:geneSymbol>RORA</dto:geneSymbol>
+        <dto:definition>A nuclear receptor ROR-alpha that is encoded in the genome of human. [PRO:DNx, UniProtKB:P35398] </dto:definition>
+        <dto:uniprot_xref>P35398</dto:uniprot_xref>
+        <dto:geneSynonym>RZRA</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117491 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117491">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor ror-beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117464"/>
+        <dto:geneSynonym>RZRB</dto:geneSynonym>
+        <dto:definition>A nuclear receptor ROR-beta that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q92753] </dto:definition>
+        <dto:geneSymbol>RORB</dto:geneSymbol>
+        <dto:uniprot_xref>Q92753</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117492 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117492">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor ror-gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117464"/>
+        <dto:definition>A nuclear receptor ROR-gamma that is encoded in the genome of human. [PRO:WCB, UniProtKB:P51449] </dto:definition>
+        <dto:geneSynonym>RORG</dto:geneSynonym>
+        <dto:geneSymbol>RORC</dto:geneSymbol>
+        <dto:uniprot_xref>P51449</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117493 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117493">
+        <rdfs:label rdf:datatype="&xsd;string">Bile acid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117465"/>
+        <dto:uniprot_xref>Q96RI1</dto:uniprot_xref>
+        <dto:geneSymbol>NR1H4</dto:geneSymbol>
+        <dto:geneSynonym>FXR</dto:geneSynonym>
+        <dto:definition>A bile acid receptor that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q96RI1] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117494 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117494">
+        <rdfs:label rdf:datatype="&xsd;string">Oxysterols receptor lxr-alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117465"/>
+        <dto:geneSymbol>NR1H3</dto:geneSymbol>
+        <dto:uniprot_xref>Q13133</dto:uniprot_xref>
+        <dto:definition>An oxysterols receptor LXR-alpha that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q13133] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117495 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117495">
+        <rdfs:label rdf:datatype="&xsd;string">Oxysterols receptor lxr-beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117465"/>
+        <dto:geneSymbol>NR1H2</dto:geneSymbol>
+        <dto:definition>An oxysterols receptor LXR-beta that is encoded in the genome of human. [PRO:DNx, UniProtKB:P55055] </dto:definition>
+        <dto:geneSynonym>NER</dto:geneSynonym>
+        <dto:uniprot_xref>P55055</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117496 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117496">
+        <rdfs:label rdf:datatype="&xsd;string">Vitamin d3 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117466"/>
+        <dto:geneSymbol>VDR</dto:geneSymbol>
+        <dto:definition>A vitamin D3 receptor that is encoded in the genome of human. [PRO:DNx, UniProtKB:P11473] </dto:definition>
+        <dto:uniprot_xref>P11473</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117497 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117497">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 1 group i member 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117466"/>
+        <dto:geneSymbol>NR1I2</dto:geneSymbol>
+        <dto:definition>A nuclear receptor subfamily 1 group I member 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:O75469] </dto:definition>
+        <dto:uniprot_xref>O75469</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117498 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117498">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 1 group i member 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117466"/>
+        <dto:uniprot_xref>Q14994</dto:uniprot_xref>
+        <dto:geneSymbol>NR1I3</dto:geneSymbol>
+        <dto:definition>A nuclear receptor subfamily 1 group I member 3 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q14994] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117499 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117499">
+        <rdfs:label rdf:datatype="&xsd;string">Hepatocyte nuclear factor 4-alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117467"/>
+        <dto:uniprot_xref>P41235</dto:uniprot_xref>
+        <dto:definition>A hepatocyte nuclear factor 4-alpha that is encoded in the genome of human. [PRO:DNx, UniProtKB:P41235] </dto:definition>
+        <dto:geneSynonym>NR2A1</dto:geneSynonym>
+        <dto:geneSymbol>HNF4A</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117500 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117500">
+        <rdfs:label rdf:datatype="&xsd;string">Hepatocyte nuclear factor 4-gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117467"/>
+        <dto:geneSymbol>HNF4G</dto:geneSymbol>
+        <dto:uniprot_xref>Q14541</dto:uniprot_xref>
+        <dto:definition>A hepatocyte nuclear factor 4-gamma that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q14541] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117501 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117501">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid receptor rxr-alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117468"/>
+        <dto:geneSymbol>RXRA</dto:geneSymbol>
+        <dto:definition>A retinoic acid receptor RXR-alpha that is encoded in the genome of human. [PRO:DNx, UniProtKB:P19793] </dto:definition>
+        <dto:uniprot_xref>P19793</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117502 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117502">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid receptor rxr-beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117468"/>
+        <dto:geneSymbol>RXRB</dto:geneSymbol>
+        <dto:uniprot_xref>P28702</dto:uniprot_xref>
+        <dto:definition>A retinoic acid receptor RXR-beta that is encoded in the genome of human. [PRO:DNx, UniProtKB:P28702] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117503 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117503">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid receptor rxr-gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117468"/>
+        <dto:geneSymbol>RXRG</dto:geneSymbol>
+        <dto:definition>A retinoic acid receptor RXR-gamma that is encoded in the genome of human. [PRO:DNx, UniProtKB:P48443] </dto:definition>
+        <dto:uniprot_xref>P48443</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117504 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117504">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 2 group c member 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117469"/>
+        <dto:geneSymbol>NR2C1</dto:geneSymbol>
+        <dto:uniprot_xref>P13056</dto:uniprot_xref>
+        <dto:definition>A nuclear receptor subfamily 2 group C member 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P13056] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117505 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117505">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 2 group c member 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117469"/>
+        <dto:geneSynonym>TR4</dto:geneSynonym>
+        <dto:geneSymbol>NR2C2</dto:geneSymbol>
+        <dto:definition>A nuclear receptor subfamily 2 group C member 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P49116] </dto:definition>
+        <dto:uniprot_xref>P49116</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117506 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117506">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 2 group e member 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117470"/>
+        <dto:definition>A nuclear receptor subfamily 2 group E member 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q9Y466] </dto:definition>
+        <dto:geneSymbol>NR2E1</dto:geneSymbol>
+        <dto:uniprot_xref>Q9Y466</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117507 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117507">
+        <rdfs:label rdf:datatype="&xsd;string">Photoreceptor-specific nuclear receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117470"/>
+        <dto:definition>A photoreceptor-specific nuclear receptor that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q9Y5X4] </dto:definition>
+        <dto:geneSymbol>NR2E3</dto:geneSymbol>
+        <dto:uniprot_xref>Q9Y5X4</dto:uniprot_xref>
+        <dto:geneSynonym>RNR</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117508 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117508">
+        <rdfs:label rdf:datatype="&xsd;string">Coup transcription factor 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117471"/>
+        <dto:geneSynonym>ERBAL3</dto:geneSynonym>
+        <dto:uniprot_xref>P10589</dto:uniprot_xref>
+        <dto:geneSymbol>NR2F1</dto:geneSymbol>
+        <dto:definition>A COUP transcription factor 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P10589] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117509 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117509">
+        <rdfs:label rdf:datatype="&xsd;string">Coup transcription factor 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117471"/>
+        <dto:geneSymbol>NR2F2</dto:geneSymbol>
+        <dto:definition>A COUP transcription factor 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P24468] </dto:definition>
+        <dto:uniprot_xref>P24468</dto:uniprot_xref>
+        <dto:geneSynonym>TFCOUP2</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117510 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117510">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 2 group f member 6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117471"/>
+        <dto:definition>A nuclear receptor subfamily 2 group F member 6 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P10588] </dto:definition>
+        <dto:geneSynonym>ERBAL2</dto:geneSynonym>
+        <dto:geneSymbol>NR2F6</dto:geneSymbol>
+        <dto:uniprot_xref>P10588</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117511 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117511">
+        <rdfs:label rdf:datatype="&xsd;string">Estrogen receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117472"/>
+        <dto:geneSynonym>NR3A1</dto:geneSynonym>
+        <dto:geneSymbol>ESR1</dto:geneSymbol>
+        <dto:uniprot_xref>P03372</dto:uniprot_xref>
+        <dto:definition>An estrogen receptor that is encoded in the genome of human. [PRO:DNx, UniProtKB:P03372] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117512 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117512">
+        <rdfs:label rdf:datatype="&xsd;string">Estrogen receptor beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117472"/>
+        <dto:geneSynonym>NR3A2</dto:geneSynonym>
+        <dto:geneSymbol>ESR2</dto:geneSymbol>
+        <dto:uniprot_xref>Q92731</dto:uniprot_xref>
+        <dto:definition>An estrogen receptor beta that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q92731] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117513 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117513">
+        <rdfs:label rdf:datatype="&xsd;string">Steroid hormone receptor err1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117473"/>
+        <dto:definition>A steroid hormone receptor ERR1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P11474] </dto:definition>
+        <dto:geneSymbol>ESRRA</dto:geneSymbol>
+        <dto:uniprot_xref>P11474</dto:uniprot_xref>
+        <dto:geneSynonym>ESRL1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117514 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117514">
+        <rdfs:label rdf:datatype="&xsd;string">Steroid hormone receptor err2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117473"/>
+        <dto:definition>A steroid hormone receptor ERR2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:O95718] </dto:definition>
+        <dto:geneSymbol>ESRRB</dto:geneSymbol>
+        <dto:geneSynonym>ESRL2</dto:geneSynonym>
+        <dto:uniprot_xref>O95718</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117515 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117515">
+        <rdfs:label rdf:datatype="&xsd;string">Estrogen-related receptor gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117473"/>
+        <dto:geneSymbol>ESRRG</dto:geneSymbol>
+        <dto:definition>An estrogen-related receptor gamma that is encoded in the genome of human. [PRO:DNx, UniProtKB:P62508] </dto:definition>
+        <dto:geneSynonym>ERRG2</dto:geneSynonym>
+        <dto:uniprot_xref>P62508</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117516 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117516">
+        <rdfs:label rdf:datatype="&xsd;string">Androgen receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117474"/>
+        <dto:geneSynonym>NR3C4</dto:geneSynonym>
+        <dto:geneSymbol>AR</dto:geneSymbol>
+        <dto:uniprot_xref>P10275</dto:uniprot_xref>
+        <dto:definition>An androgen receptor that is encoded in the genome of human. [PRO:DNx, UniProtKB:P10275] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117517 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117517">
+        <rdfs:label rdf:datatype="&xsd;string">Glucocorticoid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117474"/>
+        <dto:uniprot_xref>P04150</dto:uniprot_xref>
+        <dto:definition>A glucocorticoid receptor that is encoded in the genome of human. [PRO:DNx, UniProtKB:P04150] </dto:definition>
+        <dto:geneSymbol>NR3C1</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117518 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117518">
+        <rdfs:label rdf:datatype="&xsd;string">Mineralocorticoid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117474"/>
+        <dto:geneSynonym>MLR</dto:geneSynonym>
+        <dto:geneSymbol>NR3C2</dto:geneSymbol>
+        <dto:uniprot_xref>P08235</dto:uniprot_xref>
+        <dto:definition>A mineralocorticoid receptor that is encoded in the genome of human. [PRO:DNx, UniProtKB:P08235] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117519 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117519">
+        <rdfs:label rdf:datatype="&xsd;string">Progesterone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117474"/>
+        <dto:definition>A progesterone receptor that is encoded in the genome of human. [PRO:DNx, UniProtKB:P06401] </dto:definition>
+        <dto:uniprot_xref>P06401</dto:uniprot_xref>
+        <dto:geneSymbol>PGR</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117520 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117520">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 4 group a member 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117475"/>
+        <dto:uniprot_xref>P22736</dto:uniprot_xref>
+        <dto:geneSymbol>NR4A1</dto:geneSymbol>
+        <dto:geneSynonym>HMR</dto:geneSynonym>
+        <dto:definition>A nuclear receptor subfamily 4 group A member 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P22736] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117521 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117521">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 4 group a member 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117475"/>
+        <dto:geneSynonym>NURR1</dto:geneSynonym>
+        <dto:definition>A nuclear receptor subfamily 4 group A member 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:P43354] </dto:definition>
+        <dto:geneSymbol>NR4A2</dto:geneSymbol>
+        <dto:uniprot_xref>P43354</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117522 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117522">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 4 group a member 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117475"/>
+        <dto:geneSymbol>NR4A3</dto:geneSymbol>
+        <dto:geneSynonym>CSMF</dto:geneSynonym>
+        <dto:definition>A nuclear receptor subfamily 4 group A member 3 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q92570] </dto:definition>
+        <dto:uniprot_xref>Q92570</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117523 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117523">
+        <rdfs:label rdf:datatype="&xsd;string">Steroidogenic factor 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117476"/>
+        <dto:geneSymbol>NR5A1</dto:geneSymbol>
+        <dto:geneSynonym>FTZF1</dto:geneSynonym>
+        <dto:definition>A steroidogenic factor 1 that is encoded in the genome of human. [PRO:CNA] </dto:definition>
+        <dto:uniprot_xref>Q13285</dto:uniprot_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117524 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117524">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 5 group a member 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117476"/>
+        <dto:uniprot_xref>O00482</dto:uniprot_xref>
+        <dto:geneSynonym>CPF</dto:geneSynonym>
+        <dto:geneSymbol>NR5A2</dto:geneSymbol>
+        <dto:definition>A nuclear receptor subfamily 5 group A member 2 that is encoded in the genome of human. [PRO:DNx, UniProtKB:O00482] </dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00117525 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00117525">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear receptor subfamily 6 group a member 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00117477"/>
+        <dto:uniprot_xref>Q15406</dto:uniprot_xref>
+        <dto:definition>A nuclear receptor subfamily 6 group A member 1 that is encoded in the genome of human. [PRO:DNx, UniProtKB:Q15406] </dto:definition>
+        <dto:geneSymbol>NR6A1</dto:geneSymbol>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

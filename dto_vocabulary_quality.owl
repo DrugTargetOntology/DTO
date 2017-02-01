@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/vocabulary_quality.owl#"
+     xml:base="http://www.drugtargetontology.org/dto/vocabulary_quality.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:life="http://www.lifekb.org/life#"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:bto="http://purl.obolibrary.org/obo/bto#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dto="http://www.drugtargetontology.org/dto/"
+     xmlns:DTO="http://dto.org/DTO/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/vocabulary_quality.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.drugtargetontology.org/dto/definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00400000 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00400001 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400001">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400000"/>
+        <dto:definition>target development level</dto:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Target development level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00400002 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400002">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+        <dto:definition>Tchem</dto:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tchem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00400003 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400003">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+        <dto:definition>Tclin</dto:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tclin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00400004 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400004">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+        <dto:definition>Tdark</dto:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tdark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00400009 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400009">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudokinase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00400202 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400202">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tbio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00500646 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500646">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligand-gated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00500647 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500647">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voltage-gated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00500648 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500648">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically-gated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00500649 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500649">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temperature-gated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00500669 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500669">
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gating mechanism</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

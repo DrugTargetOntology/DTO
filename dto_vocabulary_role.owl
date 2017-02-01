@@ -1,0 +1,50 @@
+<!DOCTYPE rdf:RDF [
+<!ENTITY DTO "http://dto.org/DTO/" >
+<!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+<!ENTITY life "http://www.lifekb.org/life#" >
+<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+<!ENTITY obo "http://purl.obolibrary.org/obo/" >
+<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+<!ENTITY bto "http://purl.obolibrary.org/obo/bto#" >
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+<!ENTITY dto "http://www.drugtargetontology.org/dto/" >
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+<!ENTITY core "http://purl.obolibrary.org/obo/uberon/core#" ><!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#">]>
+
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/vocabulary_role.owl#"
+	xml:base="http://www.drugtargetontology.org/dto/vocabulary_role.owl"
+	xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:life="http://www.lifekb.org/life#"
+	xmlns:core="&obo;uberon/core#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:bto="&obo;bto#"
+	xmlns:obo="http://purl.obolibrary.org/obo/"
+	xmlns:DTO="http://dto.org/DTO/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+	<owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/vocabulary_role.owl"/>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+	<owl:Class rdf:about="&obo;CHEBI_50906">
+		<rdfs:label rdf:datatype="&xsd;string">Role</rdfs:label>
+	</owl:Class>
+
+	<owl:Class rdf:about="&obo;CHEBI_24432">
+		<rdfs:label rdf:datatype="&xsd;string">Biological role</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;CHEBI_50906"/>
+	</owl:Class>
+
+	<owl:Class rdf:about="&dto;DTO_00000003">
+		<rdfs:label rdf:datatype="&xsd;string">Endogenous ligand role</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;CHEBI_24432"/>
+	</owl:Class>
+
+</rdf:RDF>

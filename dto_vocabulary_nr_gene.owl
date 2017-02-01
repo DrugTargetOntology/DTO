@@ -1,0 +1,933 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY DTO "http://dto.org/DTO/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY life "http://www.lifekb.org/life#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY bto "http://purl.obolibrary.org/obo/bto#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dto "http://www.drugtargetontology.org/dto/" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY core "http://purl.obolibrary.org/obo/uberon/core#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/vocabulary_nr_gene.owl#"
+     xml:base="http://www.drugtargetontology.org/dto/vocabulary_nr_gene.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:life="http://www.lifekb.org/life#"
+     xmlns:core="&obo;uberon/core#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:bto="&obo;bto#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dto="http://www.drugtargetontology.org/dto/"
+     xmlns:DTO="http://dto.org/DTO/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/vocabulary_nr_gene.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/definition -->
+
+    <owl:AnnotationProperty rdf:about="&dto;definition"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/entrez_xref -->
+
+    <owl:AnnotationProperty rdf:about="&dto;entrez_xref"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/geneSymbol -->
+
+    <owl:AnnotationProperty rdf:about="&dto;geneSymbol"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/geneSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&dto;geneSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00200000 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00200000"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00200002 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00200002">
+        <rdfs:label rdf:datatype="&xsd;string">Nuclear hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217459 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217459">
+        <rdfs:label rdf:datatype="&xsd;string">Dax-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217460 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217460">
+        <rdfs:label rdf:datatype="&xsd;string">Thyroid hormone receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217461 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217461">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217462 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217462">
+        <rdfs:label rdf:datatype="&xsd;string">Peroxisome proliferator-activated receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217463 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217463">
+        <rdfs:label rdf:datatype="&xsd;string">Rev-erb receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217464 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217464">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoic acid-related orphans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217465 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217465">
+        <rdfs:label rdf:datatype="&xsd;string">Liver x receptor-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217466 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217466">
+        <rdfs:label rdf:datatype="&xsd;string">Vitamin d receptor-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217467 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217467">
+        <rdfs:label rdf:datatype="&xsd;string">Hepatocyte nuclear factor-4 receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217468 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217468">
+        <rdfs:label rdf:datatype="&xsd;string">Retinoid x receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217469 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217469">
+        <rdfs:label rdf:datatype="&xsd;string">Testicular receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217470 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217470">
+        <rdfs:label rdf:datatype="&xsd;string">Tailless-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217471 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217471">
+        <rdfs:label rdf:datatype="&xsd;string">Coup-tf-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217472 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217472">
+        <rdfs:label rdf:datatype="&xsd;string">Estrogen receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217473 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217473">
+        <rdfs:label rdf:datatype="&xsd;string">Estrogen-related receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217474 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217474">
+        <rdfs:label rdf:datatype="&xsd;string">3-ketosteroid receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217475 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217475">
+        <rdfs:label rdf:datatype="&xsd;string">Nerve growth factor ib-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217476 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217476">
+        <rdfs:label rdf:datatype="&xsd;string">Fushi tarazu f1-like receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217477 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217477">
+        <rdfs:label rdf:datatype="&xsd;string">Germ cell nuclear factor receptors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00200002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217528 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217528">
+        <rdfs:label rdf:datatype="&xsd;string">NR0B1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217459"/>
+        <dto:definition>This gene encodes a protein that contains a DNA-binding domain. The encoded protein acts as a dominant-negative regulator of transcription which is mediated by the retinoic acid receptor. This protein also functions as an anti-testis gene by acting antagonistically to Sry. Mutations in this gene result in both X-linked congenital adrenal hypoplasia and hypogonadotropic hypogonadism. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSynonym>AHC</dto:geneSynonym>
+        <dto:geneSymbol>NR0B1</dto:geneSymbol>
+        <dto:entrez_xref>190</dto:entrez_xref>
+        <dto:geneSynonym>DAX1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217529 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217529">
+        <rdfs:label rdf:datatype="&xsd;string">NR0B2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217459"/>
+        <dto:definition>The protein encoded by this gene is an unusual orphan receptor that contains a putative ligand-binding domain but lacks a conventional DNA-binding domain. The gene product is a member of the nuclear hormone receptor family, a group of transcription factors regulated by small hydrophobic hormones, a subset of which do not have known ligands and are referred to as orphan nuclear receptors. The protein has been shown to interact with retinoid and thyroid hormone receptors, inhibiting their ligand-dependent transcriptional activation. In addition, interaction with estrogen receptors has been demonstrated, leading to inhibition of function. Studies suggest that the protein represses nuclear hormone receptor-mediated transactivation via two separate steps: competition with coactivators and the direct effects of its transcriptional repressor function. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:entrez_xref>8431</dto:entrez_xref>
+        <dto:geneSymbol>NR0B2</dto:geneSymbol>
+        <dto:geneSynonym>SHP</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217530 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217530">
+        <rdfs:label rdf:datatype="&xsd;string">THRA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217460"/>
+        <dto:entrez_xref>7067</dto:entrez_xref>
+        <dto:definition>The protein encoded by this gene is a nuclear hormone receptor for triiodothyronine. It is one of the several receptors for thyroid hormone, and has been shown to mediate the biological activities of thyroid hormone. Knockout studies in mice suggest that the different receptors, while having certain extent of redundancy, may mediate different functions of thyroid hormone. Alternatively spliced transcript variants encoding distinct isoforms have been reported. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSymbol>THRA</dto:geneSymbol>
+        <dto:geneSynonym>NR1A1</dto:geneSynonym>
+        <dto:geneSynonym>EAR7</dto:geneSynonym>
+        <dto:geneSynonym>ERBA1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217531 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217531">
+        <rdfs:label rdf:datatype="&xsd;string">THRB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217460"/>
+        <dto:geneSymbol>THRB</dto:geneSymbol>
+        <dto:definition>The protein encoded by this gene is a nuclear hormone receptor for triiodothyronine. It is one of the several receptors for thyroid hormone, and has been shown to mediate the biological activities of thyroid hormone. Knockout studies in mice suggest that the different receptors, while having certain extent of redundancy, may mediate different functions of thyroid hormone. Mutations in this gene are known to be a cause of generalized thyroid hormone resistance (GTHR), a syndrome characterized by goiter and high levels of circulating thyroid hormone (T3-T4), with normal or slightly elevated thyroid stimulating hormone (TSH). Several alternatively spliced transcript variants encoding the same protein have been observed for this gene. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSynonym>ERBA2</dto:geneSynonym>
+        <dto:geneSynonym>THR1</dto:geneSynonym>
+        <dto:geneSynonym>NR1A2</dto:geneSynonym>
+        <dto:entrez_xref>7068</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217532 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217532">
+        <rdfs:label rdf:datatype="&xsd;string">RARA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217461"/>
+        <dto:geneSymbol>RARA</dto:geneSymbol>
+        <dto:entrez_xref>5914</dto:entrez_xref>
+        <dto:definition>This gene represents a nuclear retinoic acid receptor. The encoded protein, retinoic acid receptor alpha, regulates transcription in a ligand-dependent manner. This gene has been implicated in regulation of development, differentiation, apoptosis, granulopoeisis, and transcription of clock genes. Translocations between this locus and several other loci have been associated with acute promyelocytic leukemia. Alternatively spliced transcript variants have been found for this locus.[provided by RefSeq, Sep 2010]</dto:definition>
+        <dto:geneSynonym>NR1B1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217533 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217533">
+        <rdfs:label rdf:datatype="&xsd;string">RARB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217461"/>
+        <dto:geneSynonym>NR1B2</dto:geneSynonym>
+        <dto:geneSynonym>HAP</dto:geneSynonym>
+        <dto:entrez_xref>5915</dto:entrez_xref>
+        <dto:geneSymbol>RARB</dto:geneSymbol>
+        <dto:definition>This gene encodes retinoic acid receptor beta, a member of the thyroid-steroid hormone receptor superfamily of nuclear transcriptional regulators. This receptor localizes to the cytoplasm and to subnuclear compartments. It binds retinoic acid, the biologically active form of vitamin A which mediates cellular signalling in embryonic morphogenesis, cell growth and differentiation. It is thought that this protein limits growth of many cell types by regulating gene expression. The gene was first identified in a hepatocellular carcinoma where it flanks a hepatitis B virus integration site. Alternate promoter usage and differential splicing result in multiple transcript variants. [provided by RefSeq, Mar 2014]</dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217534 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217534">
+        <rdfs:label rdf:datatype="&xsd;string">RARG</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217461"/>
+        <dto:entrez_xref>5916</dto:entrez_xref>
+        <dto:geneSynonym>NR1B3</dto:geneSynonym>
+        <dto:definition>This gene encodes a retinoic acid receptor that belongs to the nuclear hormone receptor family. Retinoic acid receptors (RARs) act as ligand-dependent transcriptional regulators. When bound to ligands, RARs activate transcription by binding as heterodimers to the retinoic acid response elements (RARE) found in the promoter regions of the target genes. In their unbound form, RARs repress transcription of their target genes. RARs are involved in various biological processes, including limb bud development, skeletal growth, and matrix homeostasis. Alternatively spliced transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Aug 2011]</dto:definition>
+        <dto:geneSymbol>RARG</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217535 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217535">
+        <rdfs:label rdf:datatype="&xsd;string">PPARA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217462"/>
+        <dto:entrez_xref>5465</dto:entrez_xref>
+        <dto:geneSynonym>NR1C1</dto:geneSynonym>
+        <dto:geneSymbol>PPARA</dto:geneSymbol>
+        <dto:definition>Peroxisome proliferators include hypolipidemic drugs, herbicides, leukotriene antagonists, and plasticizers; this term arises because they induce an increase in the size and number of peroxisomes. Peroxisomes are subcellular organelles found in plants and animals that contain enzymes for respiration and for cholesterol and lipid metabolism. The action of peroxisome proliferators is thought to be mediated via specific receptors, called PPARs, which belong to the steroid hormone receptor superfamily. PPARs affect the expression of target genes involved in cell proliferation, cell differentiation and in immune and inflammation responses. Three closely related subtypes (alpha, beta/delta, and gamma) have been identified. This gene encodes the subtype PPAR-alpha, which is a nuclear transcription factor. Multiple alternatively spliced transcript variants have been described for this gene, although the full-length nature of only two has been determined. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSynonym>PPAR</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217536 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217536">
+        <rdfs:label rdf:datatype="&xsd;string">PPARD</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217462"/>
+        <dto:geneSymbol>PPARD</dto:geneSymbol>
+        <dto:geneSynonym>NR1C2</dto:geneSynonym>
+        <dto:geneSynonym>PPARB</dto:geneSynonym>
+        <dto:definition>This gene encodes a member of the peroxisome proliferator-activated receptor (PPAR) family. PPARs are nuclear hormone receptors that bind peroxisome proliferators and control the size and number of peroxisomes produced by cells. PPARs mediate a variety of biological processes, and may be involved in the development of several chronic diseases, including diabetes, obesity, atherosclerosis, and cancer. This protein is a potent inhibitor of ligand-induced transcription activity of PPAR alpha and PPAR gamma. It may function as an integrator of transcription repression and nuclear receptor signaling. The expression of this gene is found to be elevated in colorectal cancer cells. The elevated expression can be repressed by adenomatosis polyposis coli (APC), a tumor suppressor protein related to APC/beta-catenin signaling pathway. Knockout studies in mice suggested the role of this protein in myelination of the corpus callosum, lipid metabolism, and epidermal cell proliferation. Alternate splicing results in multiple transcript variants. [provided by RefSeq, Jan 2010]</dto:definition>
+        <dto:entrez_xref>5467</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217537 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217537">
+        <rdfs:label rdf:datatype="&xsd;string">PPARG</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217462"/>
+        <dto:geneSymbol>PPARG</dto:geneSymbol>
+        <dto:geneSynonym>NR1C3</dto:geneSynonym>
+        <dto:definition>This gene encodes a member of the peroxisome proliferator-activated receptor (PPAR) subfamily of nuclear receptors. PPARs form heterodimers with retinoid X receptors (RXRs) and these heterodimers regulate transcription of various genes. Three subtypes of PPARs are known: PPAR-alpha, PPAR-delta, and PPAR-gamma. The protein encoded by this gene is PPAR-gamma and is a regulator of adipocyte differentiation. Additionally, PPAR-gamma has been implicated in the pathology of numerous diseases including obesity, diabetes, atherosclerosis and cancer. Alternatively spliced transcript variants that encode different isoforms have been described. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:entrez_xref>5468</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217538 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217538">
+        <rdfs:label rdf:datatype="&xsd;string">NR1D1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217463"/>
+        <dto:geneSymbol>NR1D1</dto:geneSymbol>
+        <dto:definition>This gene encodes a transcription factor that is a member of the nuclear receptor subfamily 1. The encoded protein is a ligand-sensitive transcription factor that negatively regulates the expression of core clock proteins. In particular this protein represses the circadian clock transcription factor aryl hydrocarbon receptor nuclear translocator-like protein 1 (ARNTL). This protein may also be involved in regulating genes that function in metabolic, inflammatory and cardiovascular processes. [provided by RefSeq, Jan 2013]</dto:definition>
+        <dto:entrez_xref>9572</dto:entrez_xref>
+        <dto:geneSynonym>THRAL</dto:geneSynonym>
+        <dto:geneSynonym>EAR1</dto:geneSynonym>
+        <dto:geneSynonym>HREV</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217539 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217539">
+        <rdfs:label rdf:datatype="&xsd;string">NR1D2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217463"/>
+        <dto:definition>This gene encodes a member of the nuclear hormone receptor family, specifically the NR1 subfamily of receptors. The encoded protein functions as a transcriptional repressor and may play a role in circadian rhythms and carbohydrate and lipid metabolism. Alternatively spliced transcript variants have been described. [provided by RefSeq, Feb 2009]</dto:definition>
+        <dto:entrez_xref>9975</dto:entrez_xref>
+        <dto:geneSymbol>NR1D2</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217540 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217540">
+        <rdfs:label rdf:datatype="&xsd;string">RORA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217464"/>
+        <dto:entrez_xref>6095</dto:entrez_xref>
+        <dto:geneSynonym>NR1F1</dto:geneSynonym>
+        <dto:geneSymbol>RORA</dto:geneSymbol>
+        <dto:definition>The protein encoded by this gene is a member of the NR1 subfamily of nuclear hormone receptors. It can bind as a monomer or as a homodimer to hormone response elements upstream of several genes to enhance the expression of those genes. The encoded protein has been shown to interact with NM23-2, a nucleoside diphosphate kinase involved in organogenesis and differentiation, as well as with NM23-1, the product of a tumor metastasis suppressor candidate gene. Also, it has been shown to aid in the transcriptional regulation of some genes involved in circadian rhythm. Four transcript variants encoding different isoforms have been described for this gene. [provided by RefSeq, Feb 2014]</dto:definition>
+        <dto:geneSynonym>RZRA</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217541 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217541">
+        <rdfs:label rdf:datatype="&xsd;string">RORB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217464"/>
+        <dto:geneSynonym>NR1F2</dto:geneSynonym>
+        <dto:geneSymbol>RORB</dto:geneSymbol>
+        <dto:geneSynonym>RZRB</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217542 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217542">
+        <rdfs:label rdf:datatype="&xsd;string">RORC</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217464"/>
+        <dto:geneSynonym>RZRG</dto:geneSynonym>
+        <dto:entrez_xref>6097</dto:entrez_xref>
+        <dto:geneSynonym>NR1F3</dto:geneSynonym>
+        <dto:geneSymbol>RORC</dto:geneSymbol>
+        <dto:definition>The protein encoded by this gene is a DNA-binding transcription factor and is a member of the NR1 subfamily of nuclear hormone receptors. The specific functions of this protein are not known; however, studies of a similar gene in mice have shown that this gene may be essential for lymphoid organogenesis and may play an important regulatory role in thymopoiesis. In addition, studies in mice suggest that the protein encoded by this gene may inhibit the expression of Fas ligand and IL2. Two transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSynonym>RORG</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217543 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217543">
+        <rdfs:label rdf:datatype="&xsd;string">NR1H4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217465"/>
+        <dto:geneSynonym>HRR1</dto:geneSynonym>
+        <dto:entrez_xref>9971</dto:entrez_xref>
+        <dto:definition>This gene encodes a ligand-activated transcription factor, which shares structural features in common with nuclear hormone receptor family, such as a DNA-binding domain that targets the receptor to specific DNA sequences, and a ligand-binding domain, which interacts directly with the ligand and contains a ligand-dependent transcriptional activation domain. This protein functions as a receptor for bile acids, and when bound to bile acids, regulates the expression of genes involved in bile acid synthesis and transport. Alternatively spliced transcript variants encoding different isoforms have been described for this gene. [provided by RefSeq, Aug 2011]</dto:definition>
+        <dto:geneSynonym>FXR</dto:geneSynonym>
+        <dto:geneSymbol>NR1H4</dto:geneSymbol>
+        <dto:geneSynonym>BAR</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217544 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217544">
+        <rdfs:label rdf:datatype="&xsd;string">NR1H3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217465"/>
+        <dto:geneSynonym>LXRA</dto:geneSynonym>
+        <dto:entrez_xref>10062</dto:entrez_xref>
+        <dto:geneSymbol>NR1H3</dto:geneSymbol>
+        <dto:definition>The protein encoded by this gene belongs to the NR1 subfamily of the nuclear receptor superfamily. The NR1 family members are key regulators of macrophage function, controlling transcriptional programs involved in lipid homeostasis and inflammation. This protein is highly expressed in visceral organs, including liver, kidney and intestine. It forms a heterodimer with retinoid X receptor (RXR), and regulates expression of target genes containing retinoid response elements. Studies in mice lacking this gene suggest that it may play an important role in the regulation of cholesterol homeostasis. Alternatively spliced transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Oct 2011]</dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217545 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217545">
+        <rdfs:label rdf:datatype="&xsd;string">NR1H2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217465"/>
+        <dto:geneSynonym>UNR</dto:geneSynonym>
+        <dto:entrez_xref>7376</dto:entrez_xref>
+        <dto:geneSynonym>NER</dto:geneSynonym>
+        <dto:geneSynonym>LXRB</dto:geneSynonym>
+        <dto:definition>The liver X receptors, LXRA (NR1H3; MIM 602423) and LXRB, form a subfamily of the nuclear receptor superfamily and are key regulators of macrophage function, controlling transcriptional programs involved in lipid homeostasis and inflammation. The inducible LXRA is highly expressed in liver, adrenal gland, intestine, adipose tissue, macrophages, lung, and kidney, whereas LXRB is ubiquitously expressed. Ligand-activated LXRs form obligate heterodimers with retinoid X receptors (RXRs; see MIM 180245) and regulate expression of target genes containing LXR response elements (summary by Korf et al., 2009 [PubMed 19436111]).[supplied by OMIM, Jan 2010]</dto:definition>
+        <dto:geneSymbol>NR1H2</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217546 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217546">
+        <rdfs:label rdf:datatype="&xsd;string">VDR</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217466"/>
+        <dto:entrez_xref>7421</dto:entrez_xref>
+        <dto:geneSymbol>VDR</dto:geneSymbol>
+        <dto:definition>This gene encodes the nuclear hormone receptor for vitamin D3. This receptor also functions as a receptor for the secondary bile acid lithocholic acid. The receptor belongs to the family of trans-acting transcriptional regulatory factors and shows sequence similarity to the steroid and thyroid hormone receptors. Downstream targets of this nuclear hormone receptor are principally involved in mineral metabolism though the receptor regulates a variety of other metabolic pathways, such as those involved in the immune response and cancer. Mutations in this gene are associated with type II vitamin D-resistant rickets. A single nucleotide polymorphism in the initiation codon results in an alternate translation start site three codons downstream. Alternative splicing results in multiple transcript variants encoding different proteins. [provided by RefSeq, Feb 2011]</dto:definition>
+        <dto:geneSynonym>NR1I1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217547 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217547">
+        <rdfs:label rdf:datatype="&xsd;string">NR1I2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217466"/>
+        <dto:definition>This gene product belongs to the nuclear receptor superfamily, members of which are transcription factors characterized by a ligand-binding domain and a DNA-binding domain. The encoded protein is a transcriptional regulator of the cytochrome P450 gene CYP3A4, binding to the response element of the CYP3A4 promoter as a heterodimer with the 9-cis retinoic acid receptor RXR. It is activated by a range of compounds that induce CYP3A4, including dexamethasone and rifampicin. Several alternatively spliced transcripts encoding different isoforms, some of which use non-AUG (CUG) translation initiation codon, have been described for this gene. Additional transcript variants exist, however, they have not been fully characterized. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSynonym>PXR</dto:geneSynonym>
+        <dto:geneSymbol>NR1I2</dto:geneSymbol>
+        <dto:entrez_xref>8856</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217548 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217548">
+        <rdfs:label rdf:datatype="&xsd;string">NR1I3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217466"/>
+        <dto:entrez_xref>9970</dto:entrez_xref>
+        <dto:definition>This gene encodes a member of the nuclear receptor superfamily, and is a key regulator of xenobiotic and endobiotic metabolism. The protein binds to DNA as a monomer or a heterodimer with the retinoid X receptor and regulates the transcription of target genes involved in drug metabolism and bilirubin clearance, such as cytochrome P450 family members. Unlike most nuclear receptors, this transcriptional regulator is constitutively active in the absence of ligand but is regulated by both agonists and inverse agonists. Ligand binding results in translocation of this protein to the nucleus, where it activates or represses target gene transcription. These ligands include bilirubin, a variety of foreign compounds, steroid hormones, and prescription drugs. Multiple transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSynonym>CAR</dto:geneSynonym>
+        <dto:geneSymbol>NR1I3</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217549 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217549">
+        <rdfs:label rdf:datatype="&xsd;string">HNF4A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217467"/>
+        <dto:geneSymbol>HNF4A</dto:geneSymbol>
+        <dto:geneSynonym>HNF4</dto:geneSynonym>
+        <dto:geneSynonym>TCF14</dto:geneSynonym>
+        <dto:entrez_xref>3172</dto:entrez_xref>
+        <dto:geneSynonym>NR2A1</dto:geneSynonym>
+        <dto:definition>The protein encoded by this gene is a nuclear transcription factor which binds DNA as a homodimer. The encoded protein controls the expression of several genes, including hepatocyte nuclear factor 1 alpha, a transcription factor which regulates the expression of several hepatic genes. This gene may play a role in development of the liver, kidney, and intestines. Mutations in this gene have been associated with monogenic autosomal dominant non-insulin-dependent diabetes mellitus type I. Alternative splicing of this gene results in multiple transcript variants encoding several different isoforms. [provided by RefSeq, Apr 2012]</dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217550 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217550">
+        <rdfs:label rdf:datatype="&xsd;string">HNF4G</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217467"/>
+        <dto:entrez_xref>3174</dto:entrez_xref>
+        <dto:geneSynonym>NR2A2</dto:geneSynonym>
+        <dto:geneSymbol>HNF4G</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217551 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217551">
+        <rdfs:label rdf:datatype="&xsd;string">RXRA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217468"/>
+        <dto:geneSymbol>RXRA</dto:geneSymbol>
+        <dto:definition>Retinoid X receptors (RXRs) and retinoic acid receptors (RARs) are nuclear receptors that mediate the biological effects of retinoids by their involvement in retinoic acid-mediated gene activation. These receptors function as transcription factors by binding as homodimers or heterodimers to specific sequences in the promoters of target genes. The protein encoded by this gene is a member of the steroid and thyroid hormone receptor superfamily of transcriptional regulators. Alternative splicing of this gene results in multiple transcript variants. [provided by RefSeq, May 2014]</dto:definition>
+        <dto:geneSynonym>NR2B1</dto:geneSynonym>
+        <dto:entrez_xref>6256</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217552 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217552">
+        <rdfs:label rdf:datatype="&xsd;string">RXRB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217468"/>
+        <dto:definition>This gene encodes a member of the retinoid X receptor (RXR) family of nuclear receptors which are involved in mediating the effects of retinoic acid (RA). The encoded protein forms homodimers with the retinoic acid, thyroid hormone, and vitamin D receptors, increasing both DNA binding and transcriptional function on their respective response elements. This gene lies within the major histocompatibility complex (MHC) class II region on chromosome 6. Alternatively spliced transcript variants encoding multiple isoforms have been observed for this gene. [provided by RefSeq, Jul 2012]</dto:definition>
+        <dto:geneSymbol>RXRB</dto:geneSymbol>
+        <dto:geneSynonym>NR2B2</dto:geneSynonym>
+        <dto:entrez_xref>6257</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217553 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217553">
+        <rdfs:label rdf:datatype="&xsd;string">RXRG</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217468"/>
+        <dto:geneSynonym>NR2B3</dto:geneSynonym>
+        <dto:entrez_xref>6258</dto:entrez_xref>
+        <dto:definition>This gene encodes a member of the retinoid X receptor (RXR) family of nuclear receptors which are involved in mediating the antiproliferative effects of retinoic acid (RA). This receptor forms dimers with the retinoic acid, thyroid hormone, and vitamin D receptors, increasing both DNA binding and transcriptional function on their respective response elements. This gene is expressed at significantly lower levels in non-small cell lung cancer cells. Alternatively spliced transcript variants have been described. [provided by RefSeq, Jun 2010]</dto:definition>
+        <dto:geneSymbol>RXRG</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217554 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217554">
+        <rdfs:label rdf:datatype="&xsd;string">NR2C1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217469"/>
+        <dto:geneSymbol>NR2C1</dto:geneSymbol>
+        <dto:definition>This gene encodes a nuclear hormone receptor characterized by a highly conserved DNA binding domain (DBD), a variable hinge region, and a carboxy-terminal ligand binding domain (LBD) that is typical for all members of the steroid/thyroid hormone receptor superfamily. This protein also belongs to a large family of ligand-inducible transcription factors that regulate gene expression by binding to specific DNA sequences within promoters of target genes. Multiple alternatively spliced transcript variants have been described, but the full-length nature of some of these variants has not been determined. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:entrez_xref>7181</dto:entrez_xref>
+        <dto:geneSynonym>TR2</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217555 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217555">
+        <rdfs:label rdf:datatype="&xsd;string">NR2C2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217469"/>
+        <dto:entrez_xref>7182</dto:entrez_xref>
+        <dto:geneSynonym>TR4</dto:geneSynonym>
+        <dto:geneSynonym>TAK1</dto:geneSynonym>
+        <dto:definition>This gene encodes a protein that belongs to the nuclear hormone receptor family. Members of this family act as ligand-activated transcription factors and function in many biological processes such as development, cellular differentiation and homeostasis. The activated receptor/ligand complex is translocated to the nucleus where it binds to hormone response elements of target genes. The protein encoded by this gene plays a role in protecting cells from oxidative stress and damage induced by ionizing radiation. The lack of a similar gene in mouse results in growth retardation, severe spinal curvature, subfertility, premature aging, and prostatic intraepithelial neoplasia (PIN) development. Alternative splicing results in multiple transcript variants encoding different isoforms. [provided by RefSeq, Apr 2014]</dto:definition>
+        <dto:geneSymbol>NR2C2</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217556 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217556">
+        <rdfs:label rdf:datatype="&xsd;string">NR2E1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217470"/>
+        <dto:geneSymbol>NR2E1</dto:geneSymbol>
+        <dto:entrez_xref>7101</dto:entrez_xref>
+        <dto:geneSynonym>TLX</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217557 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217557">
+        <rdfs:label rdf:datatype="&xsd;string">NR2E3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217470"/>
+        <dto:definition>This protein is part of a large family of nuclear receptor transcription factors involved in signaling pathways. Nuclear receptors have been shown to regulate pathways involved in embryonic development, as well as in maintenance of proper cell function in adults. Members of this family are characterized by discrete domains that function in DNA and ligand binding. This gene encodes a retinal nuclear receptor that is a ligand-dependent transcription factor. Defects in this gene are a cause of enhanced S cone syndrome. Alternatively spliced transcript variants encoding different isoforms have been identified. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSymbol>NR2E3</dto:geneSymbol>
+        <dto:entrez_xref>10002</dto:entrez_xref>
+        <dto:geneSynonym>PNR</dto:geneSynonym>
+        <dto:geneSynonym>RNR</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217558 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217558">
+        <rdfs:label rdf:datatype="&xsd;string">NR2F1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217471"/>
+        <dto:geneSynonym>ERBAL3</dto:geneSynonym>
+        <dto:geneSymbol>NR2F1</dto:geneSymbol>
+        <dto:geneSynonym>EAR3</dto:geneSynonym>
+        <dto:entrez_xref>7025</dto:entrez_xref>
+        <dto:geneSynonym>TFCOUP1</dto:geneSynonym>
+        <dto:definition>The protein encoded by this gene is a nuclear hormone receptor and transcriptional regulator. The encoded protein acts as a homodimer and binds to 5&apos;-AGGTCA-3&apos; repeats. Defects in this gene are a cause of Bosch-Boonstra optic atrophy syndrome (BBOAS). [provided by RefSeq, Apr 2014]</dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217559 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217559">
+        <rdfs:label rdf:datatype="&xsd;string">NR2F2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217471"/>
+        <dto:definition>This gene encodes a member of the steroid thyroid hormone superfamily of nuclear receptors. The encoded protein is a ligand inducible transcription factor that is involved in the regulation of many different genes. Alternate splicing results in multiple transcript variants. [provided by RefSeq, Mar 2010]</dto:definition>
+        <dto:entrez_xref>7026</dto:entrez_xref>
+        <dto:geneSymbol>NR2F2</dto:geneSymbol>
+        <dto:geneSynonym>ARP1</dto:geneSynonym>
+        <dto:geneSynonym>TFCOUP2</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217560 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217560">
+        <rdfs:label rdf:datatype="&xsd;string">NR2F6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217471"/>
+        <dto:geneSymbol>NR2F6</dto:geneSymbol>
+        <dto:geneSynonym>EAR2</dto:geneSynonym>
+        <dto:entrez_xref>2063</dto:entrez_xref>
+        <dto:geneSynonym>ERBAL2</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217561 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217561">
+        <rdfs:label rdf:datatype="&xsd;string">ESR1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217472"/>
+        <dto:geneSynonym>NR3A1</dto:geneSynonym>
+        <dto:entrez_xref>2099</dto:entrez_xref>
+        <dto:geneSymbol>ESR1</dto:geneSymbol>
+        <dto:geneSynonym>ESR</dto:geneSynonym>
+        <dto:definition>This gene encodes an estrogen receptor, a ligand-activated transcription factor composed of several domains important for hormone binding, DNA binding, and activation of transcription. The protein localizes to the nucleus where it may form a homodimer or a heterodimer with estrogen receptor 2. Estrogen and its receptors are essential for sexual development and reproductive function, but also play a role in other tissues such as bone. Estrogen receptors are also involved in pathological processes including breast cancer, endometrial cancer, and osteoporosis. Alternative promoter usage and alternative splicing result in dozens of transcript variants, but the full-length nature of many of these variants has not been determined. [provided by RefSeq, Mar 2014]</dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217562 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217562">
+        <rdfs:label rdf:datatype="&xsd;string">ESR2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217472"/>
+        <dto:definition>This gene encodes a member of the family of estrogen receptors and superfamily of nuclear receptor transcription factors. The gene product contains an N-terminal DNA binding domain and C-terminal ligand binding domain and is localized to the nucleus, cytoplasm, and mitochondria. Upon binding to 17beta-estradiol or related ligands, the encoded protein forms homo- or hetero-dimers that interact with specific DNA sequences to activate transcription. Some isoforms dominantly inhibit the activity of other estrogen receptor family members. Several alternatively spliced transcript variants of this gene have been described, but the full-length nature of some of these variants has not been fully characterized. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSynonym>ESTRB</dto:geneSynonym>
+        <dto:entrez_xref>2100</dto:entrez_xref>
+        <dto:geneSymbol>ESR2</dto:geneSymbol>
+        <dto:geneSynonym>NR3A2</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217563 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217563">
+        <rdfs:label rdf:datatype="&xsd;string">ESRRA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217473"/>
+        <dto:geneSynonym>ERR1</dto:geneSynonym>
+        <dto:geneSymbol>ESRRA</dto:geneSymbol>
+        <dto:geneSynonym>NR3B1</dto:geneSynonym>
+        <dto:entrez_xref>2101</dto:entrez_xref>
+        <dto:definition>The protein encoded by this gene is a nuclear receptor that is closely related to the estrogen receptor. This protein acts as a site-specific transcription regulator and has been also shown to interact with estrogen and the transcripton factor TFIIB by direct protein-protein contact. The binding and regulatory activities of this protein have been demonstrated in the regulation of a variety of genes including lactoferrin, osteopontin, medium-chain acyl coenzyme A dehydrogenase (MCAD) and thyroid hormone receptor genes. A processed pseudogene of ESRRA is located on chromosome 13q12.1. Alternatively spliced transcript variants have been found for this gene. [provided by RefSeq, Sep 2013]</dto:definition>
+        <dto:geneSynonym>ESRL1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217564 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217564">
+        <rdfs:label rdf:datatype="&xsd;string">ESRRB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217473"/>
+        <dto:geneSynonym>NR3B2</dto:geneSynonym>
+        <dto:entrez_xref>2103</dto:entrez_xref>
+        <dto:geneSymbol>ESRRB</dto:geneSymbol>
+        <dto:geneSynonym>ESRL2</dto:geneSynonym>
+        <dto:geneSynonym>ERRB2</dto:geneSynonym>
+        <dto:definition>This gene encodes a protein with similarity to the estrogen receptor. Its function is unknown; however, a similar protein in mouse plays an essential role in placental development. [provided by RefSeq, Jul 2008]</dto:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217565 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217565">
+        <rdfs:label rdf:datatype="&xsd;string">ESRRG</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217473"/>
+        <dto:geneSynonym>KIAA0832</dto:geneSynonym>
+        <dto:geneSynonym>ERRG2</dto:geneSynonym>
+        <dto:geneSynonym>ERR3</dto:geneSynonym>
+        <dto:definition>This gene encodes a member of the estrogen receptor-related receptor (ESRR) family, which belongs to the nuclear hormone receptor superfamily. All members of the ESRR family share an almost identical DNA binding domain, which is composed of two C4-type zinc finger motifs. The ESRR members are orphan nuclear receptors; they bind to the estrogen response element and steroidogenic factor 1 response element, and activate genes controlled by both response elements in the absence of any ligands. The ESRR family is closely related to the estrogen receptor (ER) family. They share target genes, co-regulators and promoters, and by targeting the same set of genes, the ESRRs seem to interfere with the ER-mediated estrogen response in various ways. It has been reported that the family member encoded by this gene functions as a transcriptional activator of DNA cytosine-5-methyltransferases 1 (Dnmt1) expression by direct binding to its response elements in the DNMT1 promoters, modulates cell proliferation and estrogen signaling in breast cancer, and negatively regulates bone morphogenetic protein 2-induced osteoblast differentiation and bone formation. Multiple alternatively spliced transcript variants have been identified, which mainly differ at the 5&apos; end and some of which encode protein isoforms differing in the N-terminal region. [provided by RefSeq, Aug 2011]</dto:definition>
+        <dto:entrez_xref>2104</dto:entrez_xref>
+        <dto:geneSymbol>ESRRG</dto:geneSymbol>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217566 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217566">
+        <rdfs:label rdf:datatype="&xsd;string">AR</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217474"/>
+        <dto:geneSynonym>NR3C4</dto:geneSynonym>
+        <dto:geneSynonym>DHTR</dto:geneSynonym>
+        <dto:geneSymbol>AR</dto:geneSymbol>
+        <dto:definition>The androgen receptor gene is more than 90 kb long and codes for a protein that has 3 major functional domains: the N-terminal domain, DNA-binding domain, and androgen-binding domain. The protein functions as a steroid-hormone activated transcription factor. Upon binding the hormone ligand, the receptor dissociates from accessory proteins, translocates into the nucleus, dimerizes, and then stimulates transcription of androgen responsive genes. This gene contains 2 polymorphic trinucleotide repeat segments that encode polyglutamine and polyglycine tracts in the N-terminal transactivation domain of its protein. Expansion of the polyglutamine tract causes spinal bulbar muscular atrophy (Kennedy disease). Mutations in this gene are also associated with complete androgen insensitivity (CAIS). Two alternatively spliced variants encoding distinct isoforms have been described. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:entrez_xref>367</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217567 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217567">
+        <rdfs:label rdf:datatype="&xsd;string">NR3C1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217474"/>
+        <dto:geneSymbol>NR3C1</dto:geneSymbol>
+        <dto:definition>This gene encodes glucocorticoid receptor, which can function both as a transcription factor that binds to glucocorticoid response elements in the promoters of glucocorticoid responsive genes to activate their transcription, and as a regulator of other transcription factors. This receptor is typically found in the cytoplasm, but upon ligand binding, is transported into the nucleus. It is involved in inflammatory responses, cellular proliferation, and differentiation in target tissues. Mutations in this gene are associated with generalized glucocorticoid resistance. Alternative splicing of this gene results in transcript variants encoding either the same or different isoforms. Additional isoforms resulting from the use of alternate in-frame translation initiation sites have also been described, and shown to be functional, displaying diverse cytoplasm-to-nucleus trafficking patterns and distinct transcriptional activities (PMID:15866175). [provided by RefSeq, Feb 2011]</dto:definition>
+        <dto:entrez_xref>2908</dto:entrez_xref>
+        <dto:geneSynonym>GRL</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217568 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217568">
+        <rdfs:label rdf:datatype="&xsd;string">NR3C2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217474"/>
+        <dto:geneSynonym>MCR</dto:geneSynonym>
+        <dto:definition>This gene encodes the mineralocorticoid receptor, which mediates aldosterone actions on salt and water balance within restricted target cells. The protein functions as a ligand-dependent transcription factor that binds to mineralocorticoid response elements in order to transactivate target genes. Mutations in this gene cause autosomal dominant pseudohypoaldosteronism type I, a disorder characterized by urinary salt wasting. Defects in this gene are also associated with early onset hypertension with severe exacerbation in pregnancy. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Oct 2009]</dto:definition>
+        <dto:geneSynonym>MLR</dto:geneSynonym>
+        <dto:geneSymbol>NR3C2</dto:geneSymbol>
+        <dto:entrez_xref>4306</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217569 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217569">
+        <rdfs:label rdf:datatype="&xsd;string">PGR</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217474"/>
+        <dto:geneSymbol>PGR</dto:geneSymbol>
+        <dto:entrez_xref>5241</dto:entrez_xref>
+        <dto:definition>This gene encodes a member of the steroid receptor superfamily. The encoded protein mediates the physiological effects of progesterone, which plays a central role in reproductive events associated with the establishment and maintenance of pregnancy. This gene uses two distinct promotors and translation start sites in the first exon to produce two isoforms, A and B. The two isoforms are identical except for the additional 165 amino acids found in the N-terminus of isoform B and mediate their own response genes and physiologic effects with little overlap. [provided by RefSeq, Jan 2011]</dto:definition>
+        <dto:geneSynonym>NR3C3</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217570 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217570">
+        <rdfs:label rdf:datatype="&xsd;string">NR4A1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217475"/>
+        <dto:entrez_xref>3164</dto:entrez_xref>
+        <dto:geneSynonym>NAK1</dto:geneSynonym>
+        <dto:definition>This gene encodes a member of the steroid-thyroid hormone-retinoid receptor superfamily. Expression is induced by phytohemagglutinin in human lymphocytes and by serum stimulation of arrested fibroblasts. The encoded protein acts as a nuclear transcription factor. Translocation of the protein from the nucleus to mitochondria induces apoptosis. Multiple transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Jan 2011]</dto:definition>
+        <dto:geneSymbol>NR4A1</dto:geneSymbol>
+        <dto:geneSynonym>HMR</dto:geneSynonym>
+        <dto:geneSynonym>GFRP1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217571 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217571">
+        <rdfs:label rdf:datatype="&xsd;string">NR4A2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217475"/>
+        <dto:definition>This gene encodes a member of the steroid-thyroid hormone-retinoid receptor superfamily. The encoded protein may act as a transcription factor. Mutations in this gene have been associated with disorders related to dopaminergic dysfunction, including Parkinson disease, schizophernia, and manic depression. Misregulation of this gene may be associated with rheumatoid arthritis. Alternatively spliced transcript variants have been described, but their biological validity has not been determined. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:entrez_xref>4929</dto:entrez_xref>
+        <dto:geneSynonym>NURR1</dto:geneSynonym>
+        <dto:geneSymbol>NR4A2</dto:geneSymbol>
+        <dto:geneSynonym>TINUR</dto:geneSynonym>
+        <dto:geneSynonym>NOT</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217572 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217572">
+        <rdfs:label rdf:datatype="&xsd;string">NR4A3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217475"/>
+        <dto:geneSymbol>NR4A3</dto:geneSymbol>
+        <dto:definition>This gene encodes a member of the steroid-thyroid hormone-retinoid receptor superfamily. The encoded protein may act as a transcriptional activator. The protein can efficiently bind the NGFI-B Response Element (NBRE). Three different versions of extraskeletal myxoid chondrosarcomas (EMCs) are the result of reciprocal translocations between this gene and other genes. The translocation breakpoints are associated with Nuclear Receptor Subfamily 4, Group A, Member 3 (on chromosome 9) and either Ewing Sarcome Breakpoint Region 1 (on chromosome 22), RNA Polymerase II, TATA Box-Binding Protein-Associated Factor, 68-KD (on chromosome 17), or Transcription factor 12 (on chromosome 15). Multiple transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Mar 2010]</dto:definition>
+        <dto:geneSynonym>CSMF</dto:geneSynonym>
+        <dto:entrez_xref>8013</dto:entrez_xref>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217573 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217573">
+        <rdfs:label rdf:datatype="&xsd;string">NR5A1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217476"/>
+        <dto:definition>The protein encoded by this gene is a transcriptional activator involved in sex determination. The encoded protein binds DNA as a monomer. Defects in this gene are a cause of XY sex reversal with or without adrenal failure as well as adrenocortical insufficiency without ovarian defect. [provided by RefSeq, Jul 2008]</dto:definition>
+        <dto:geneSynonym>SF1</dto:geneSynonym>
+        <dto:geneSynonym>AD4BP</dto:geneSynonym>
+        <dto:entrez_xref>2516</dto:entrez_xref>
+        <dto:geneSymbol>NR5A1</dto:geneSymbol>
+        <dto:geneSynonym>FTZF1</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217574 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217574">
+        <rdfs:label rdf:datatype="&xsd;string">NR5A2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217476"/>
+        <dto:geneSynonym>B1F</dto:geneSynonym>
+        <dto:entrez_xref>2494</dto:entrez_xref>
+        <dto:geneSymbol>NR5A2</dto:geneSymbol>
+        <dto:geneSynonym>CPF</dto:geneSynonym>
+        <dto:geneSynonym>FTF</dto:geneSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00217575 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00217575">
+        <rdfs:label rdf:datatype="&xsd;string">NR6A1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00217477"/>
+        <dto:definition>This gene encodes an orphan nuclear receptor which is a member of the nuclear hormone receptor family. Its expression pattern suggests that it may be involved in neurogenesis and germ cell development. The protein can homodimerize and bind DNA, but in vivo targets have not been identified. Alternate splicing results in multiple transcript variants.[provided by RefSeq, Jun 2013]</dto:definition>
+        <dto:geneSynonym>GCNF</dto:geneSynonym>
+        <dto:entrez_xref>2649</dto:entrez_xref>
+        <dto:geneSymbol>NR6A1</dto:geneSymbol>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

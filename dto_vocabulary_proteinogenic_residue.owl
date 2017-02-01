@@ -1,0 +1,3568 @@
+<!DOCTYPE rdf:RDF [
+<!ENTITY DTO "http://dto.org/DTO/" >
+<!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+<!ENTITY life "http://www.lifekb.org/life#" >
+<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+<!ENTITY obo "http://purl.obolibrary.org/obo/" >
+<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+<!ENTITY bto "http://purl.obolibrary.org/obo/bto#" >
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+<!ENTITY dto "http://www.drugtargetontology.org/dto/" >
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+<!ENTITY core "http://purl.obolibrary.org/obo/uberon/core#" ><!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#">]>
+
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_vocabulary_proteinogenic_residue#"
+xml:base="http://www.drugtargetontology.org/dto/dto_vocabulary_proteinogenic_residue"
+xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:life="http://www.lifekb.org/life#"
+xmlns:core="&obo;uberon/core#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:bto="&obo;bto#"
+xmlns:obo="http://purl.obolibrary.org/obo/"
+xmlns:DTO="http://dto.org/DTO/"
+xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_vocabulary_proteinogenic_residue.owl"/>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_00000000 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000000">
+		<rdfs:label rdf:datatype="&xsd;string">role</rdfs:label>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_00000002 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000002">
+		<rdfs:label rdf:datatype="&xsd;string">gatekeeper role</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000000 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000000">
+		<rdfs:label rdf:datatype="&xsd;string">proteinogenic amino-acid residue</rdfs:label>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000005 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000005">
+		<rdfs:label rdf:datatype="&xsd;string">ASN289 in WEE2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000006 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000006">
+		<rdfs:label rdf:datatype="&xsd;string">ASN376 in WEE1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000007 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000007">
+		<rdfs:label rdf:datatype="&xsd;string">GLN105 in ERK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000008 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000008">
+		<rdfs:label rdf:datatype="&xsd;string">GLN105 in MK01</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000009 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000009">
+		<rdfs:label rdf:datatype="&xsd;string">GLN108 in ERK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000010 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000010">
+		<rdfs:label rdf:datatype="&xsd;string">GLN118 in SgK110</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000011 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000011">
+		<rdfs:label rdf:datatype="&xsd;string">GLN122 in MK03</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000012 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000012">
+		<rdfs:label rdf:datatype="&xsd;string">GLN128 in SBK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000013 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000013">
+		<rdfs:label rdf:datatype="&xsd;string">GLN600 in JAK3(Kin.Dom.2)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000014 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000014">
+		<rdfs:label rdf:datatype="&xsd;string">GLN626 in JAK2(Kin.Dom.2)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000015 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000015">
+		<rdfs:label rdf:datatype="&xsd;string">GLU667 in JAK1(Kin.Dom.2)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000016 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000016">
+		<rdfs:label rdf:datatype="&xsd;string">GLY866 in BUB1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000017 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000017">
+		<rdfs:label rdf:datatype="&xsd;string">ILE108 in SLK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000018 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000018">
+		<rdfs:label rdf:datatype="&xsd;string">ILE110 in LOK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000019 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000019">
+		<rdfs:label rdf:datatype="&xsd;string">ILE1323 in MAP3K1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000020 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000020">
+		<rdfs:label rdf:datatype="&xsd;string">ILE332 in KPCI</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000021 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000021">
+		<rdfs:label rdf:datatype="&xsd;string">ILE642 in ERN1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000022 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000022">
+		<rdfs:label rdf:datatype="&xsd;string">ILE711 in EPHA7</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000023 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000023">
+		<rdfs:label rdf:datatype="&xsd;string">ILE902 in TIE2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000024 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000024">
+		<rdfs:label rdf:datatype="&xsd;string">ILE917 in TIE1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000025 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000025">
+		<rdfs:label rdf:datatype="&xsd;string">LEU100 in MYO3A</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000026 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000026">
+		<rdfs:label rdf:datatype="&xsd;string">LEU103 in DAPK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000027 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000027">
+		<rdfs:label rdf:datatype="&xsd;string">LEU106 in MYO3B</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000028 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000028">
+		<rdfs:label rdf:datatype="&xsd;string">LEU110 in BRSK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000029 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000029">
+		<rdfs:label rdf:datatype="&xsd;string">LEU110 in DRAK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000030 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000030">
+		<rdfs:label rdf:datatype="&xsd;string">LEU111 in NEK7</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000031 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000031">
+		<rdfs:label rdf:datatype="&xsd;string">LEU115 in RPS6KA4(Kin.Dom.1-N-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000032 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000032">
+		<rdfs:label rdf:datatype="&xsd;string">LEU1157 in MET</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000033 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000033">
+		<rdfs:label rdf:datatype="&xsd;string">LEU1157 in MET(M1250T)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000034 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000034">
+		<rdfs:label rdf:datatype="&xsd;string">LEU1157 in MET(Y1235D)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000035 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000035">
+		<rdfs:label rdf:datatype="&xsd;string">LEU116 in CSNK1G3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000036 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000036">
+		<rdfs:label rdf:datatype="&xsd;string">LEU116 in PIM2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000037 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000037">
+		<rdfs:label rdf:datatype="&xsd;string">LEU1161 in MST1R</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000038 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000038">
+		<rdfs:label rdf:datatype="&xsd;string">LEU118 in KC1G1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000039 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000039">
+		<rdfs:label rdf:datatype="&xsd;string">LEU118 in KCC4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000040 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000040">
+		<rdfs:label rdf:datatype="&xsd;string">LEU119 in KC1G2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000041 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000041">
+		<rdfs:label rdf:datatype="&xsd;string">LEU1196 in ALK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000042 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000042">
+		<rdfs:label rdf:datatype="&xsd;string">LEU1196 in ALK(C1156Y)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000043 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000043">
+		<rdfs:label rdf:datatype="&xsd;string">LEU1196 in ALK(L1196M)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000044 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000044">
+		<rdfs:label rdf:datatype="&xsd;string">LEU120 in AURKC</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000045 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000045">
+		<rdfs:label rdf:datatype="&xsd;string">LEU122 in NEK6</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000046 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000046">
+		<rdfs:label rdf:datatype="&xsd;string">LEU123 in PIM3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000047 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000047">
+		<rdfs:label rdf:datatype="&xsd;string">LEU128 in NEK9</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000048 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000048">
+		<rdfs:label rdf:datatype="&xsd;string">LEU130 in PLK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000049 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000049">
+		<rdfs:label rdf:datatype="&xsd;string">LEU131 in RPS6KA5(Kin.Dom.1-N-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000050 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000050">
+		<rdfs:label rdf:datatype="&xsd;string">LEU132 in GSK3B</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000051 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000051">
+		<rdfs:label rdf:datatype="&xsd;string">LEU137 in ERK5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000052 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000052">
+		<rdfs:label rdf:datatype="&xsd;string">LEU138 in DRAK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000053 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000053">
+		<rdfs:label rdf:datatype="&xsd;string">LEU138 in RSK3(Kin.Dom.1-N-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000054 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000054">
+		<rdfs:label rdf:datatype="&xsd;string">LEU139 in PLK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000055 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000055">
+		<rdfs:label rdf:datatype="&xsd;string">LEU141 in RSK1(Kin.Dom.1-N-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000056 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000056">
+		<rdfs:label rdf:datatype="&xsd;string">LEU147 in RSK2(Kin.Dom.1-N-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000057 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000057">
+		<rdfs:label rdf:datatype="&xsd;string">LEU152 in RSK4(Kin.Dom.1-N-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000058 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000058">
+		<rdfs:label rdf:datatype="&xsd;string">LEU1538 in MYLK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000059 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000059">
+		<rdfs:label rdf:datatype="&xsd;string">LEU154 in AURKB</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000060 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000060">
+		<rdfs:label rdf:datatype="&xsd;string">LEU159 in PDPK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000061 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000061">
+		<rdfs:label rdf:datatype="&xsd;string">LEU159 in PLK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000062 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000062">
+		<rdfs:label rdf:datatype="&xsd;string">LEU172 in S6K1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000063 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000063">
+		<rdfs:label rdf:datatype="&xsd;string">LEU173 in SGK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000064 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000064">
+		<rdfs:label rdf:datatype="&xsd;string">LEU176 in SGK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000065 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000065">
+		<rdfs:label rdf:datatype="&xsd;string">LEU195 in GSK3A</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000066 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000066">
+		<rdfs:label rdf:datatype="&xsd;string">LEU2026 in ROS1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000067 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000067">
+		<rdfs:label rdf:datatype="&xsd;string">LEU210 in AURKA</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000068 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000068">
+		<rdfs:label rdf:datatype="&xsd;string">LEU211 in PIM1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000069 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000069">
+		<rdfs:label rdf:datatype="&xsd;string">LEU240 in SGK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000070 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000070">
+		<rdfs:label rdf:datatype="&xsd;string">LEU264 in GRK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000071 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000071">
+		<rdfs:label rdf:datatype="&xsd;string">LEU301 in CHK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000072 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000072">
+		<rdfs:label rdf:datatype="&xsd;string">LEU431 in DCAMKL3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000073 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000073">
+		<rdfs:label rdf:datatype="&xsd;string">LEU483 in RPS6KA4(Kin.Dom.2-C-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000074 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000074">
+		<rdfs:label rdf:datatype="&xsd;string">LEU530 in KGP2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000075 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000075">
+		<rdfs:label rdf:datatype="&xsd;string">LEU538 in TLK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000076 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000076">
+		<rdfs:label rdf:datatype="&xsd;string">LEU544 in TLK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000077 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000077">
+		<rdfs:label rdf:datatype="&xsd;string">LEU590 in LTK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000078 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000078">
+		<rdfs:label rdf:datatype="&xsd;string">LEU603 in TYRO3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000079 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000079">
+		<rdfs:label rdf:datatype="&xsd;string">LEU620 in AXL</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000080 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000080">
+		<rdfs:label rdf:datatype="&xsd;string">LEU671 in MERTK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000081 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000081">
+		<rdfs:label rdf:datatype="&xsd;string">LEU84 in CHEK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000082 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000082">
+		<rdfs:label rdf:datatype="&xsd;string">LEU86 in MELK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000083 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000083">
+		<rdfs:label rdf:datatype="&xsd;string">LEU89 in PLK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000084 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000084">
+		<rdfs:label rdf:datatype="&xsd;string">LEU92 in SNRK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000085 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000085">
+		<rdfs:label rdf:datatype="&xsd;string">LEU93 in DAPK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000086 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000086">
+		<rdfs:label rdf:datatype="&xsd;string">LEU93 in DAPK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000087 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000087">
+		<rdfs:label rdf:datatype="&xsd;string">LEU95 in BRSK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000088 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000088">
+		<rdfs:label rdf:datatype="&xsd;string">LEU98 in STK16</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000089 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000089">
+		<rdfs:label rdf:datatype="&xsd;string">MET101 in TAOK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000090 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000090">
+		<rdfs:label rdf:datatype="&xsd;string">MET102 in MAPKAPK5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000091 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000091">
+		<rdfs:label rdf:datatype="&xsd;string">MET102 in MST1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000092 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000092">
+		<rdfs:label rdf:datatype="&xsd;string">MET104 in AMPK-alpha1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000093 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000093">
+		<rdfs:label rdf:datatype="&xsd;string">MET104 in TAK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000094 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000094">
+		<rdfs:label rdf:datatype="&xsd;string">MET105 in MAP4K4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000095 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000095">
+		<rdfs:label rdf:datatype="&xsd;string">MET105 in MINK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000096 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000096">
+		<rdfs:label rdf:datatype="&xsd;string">MET105 in TAOK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000097 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000097">
+		<rdfs:label rdf:datatype="&xsd;string">MET105 in TAOK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000098 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000098">
+		<rdfs:label rdf:datatype="&xsd;string">MET105 in TNIK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000099 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000099">
+		<rdfs:label rdf:datatype="&xsd;string">MET1059 in INSRR</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000100 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000100">
+		<rdfs:label rdf:datatype="&xsd;string">MET107 in MK13</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000101 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000101">
+		<rdfs:label rdf:datatype="&xsd;string">MET1079 in IGF1R</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000102 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000102">
+		<rdfs:label rdf:datatype="&xsd;string">MET108 in JNK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000103 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000103">
+		<rdfs:label rdf:datatype="&xsd;string">MET108 in MK09</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000104 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000104">
+		<rdfs:label rdf:datatype="&xsd;string">MET109 in MK12</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000105 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000105">
+		<rdfs:label rdf:datatype="&xsd;string">MET1103 in INSR</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000106 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000106">
+		<rdfs:label rdf:datatype="&xsd;string">MET111 in MST3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000107 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000107">
+		<rdfs:label rdf:datatype="&xsd;string">MET1140 in YSK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000108 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000108">
+		<rdfs:label rdf:datatype="&xsd;string">MET121 in PKAC-alpha</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000109 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000109">
+		<rdfs:label rdf:datatype="&xsd;string">MET121 in PKAC-beta</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000110 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000110">
+		<rdfs:label rdf:datatype="&xsd;string">MET121 in VRK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000111 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000111">
+		<rdfs:label rdf:datatype="&xsd;string">MET126 in AAK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000112 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000112">
+		<rdfs:label rdf:datatype="&xsd;string">MET126 in PRKX</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000113 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000113">
+		<rdfs:label rdf:datatype="&xsd;string">MET129 in LKB1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000114 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000114">
+		<rdfs:label rdf:datatype="&xsd;string">MET129 in MARK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000115 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000115">
+		<rdfs:label rdf:datatype="&xsd;string">MET129 in MP2K6</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000116 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000116">
+		<rdfs:label rdf:datatype="&xsd;string">MET129 in SNARK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000117 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000117">
+		<rdfs:label rdf:datatype="&xsd;string">MET130 in BIKE</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000118 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000118">
+		<rdfs:label rdf:datatype="&xsd;string">MET132 in MARK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000119 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000119">
+		<rdfs:label rdf:datatype="&xsd;string">MET132 in NUAK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000120 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000120">
+		<rdfs:label rdf:datatype="&xsd;string">MET135 in MARK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000121 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000121">
+		<rdfs:label rdf:datatype="&xsd;string">MET136 in MARK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000122 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000122">
+		<rdfs:label rdf:datatype="&xsd;string">MET138 in MAPKAPK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000123 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000123">
+		<rdfs:label rdf:datatype="&xsd;string">MET138 in STK39</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000124 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000124">
+		<rdfs:label rdf:datatype="&xsd;string">MET140 in HUNK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000125 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000125">
+		<rdfs:label rdf:datatype="&xsd;string">MET140 in MP2K3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000126 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000126">
+		<rdfs:label rdf:datatype="&xsd;string">MET1419 in MAP3K4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000127 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000127">
+		<rdfs:label rdf:datatype="&xsd;string">MET143 in MP2K1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000128 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000128">
+		<rdfs:label rdf:datatype="&xsd;string">MET146 in JNK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000129 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000129">
+		<rdfs:label rdf:datatype="&xsd;string">MET147 in MP2K2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000130 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000130">
+		<rdfs:label rdf:datatype="&xsd;string">MET148 in DMPK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000131 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000131">
+		<rdfs:label rdf:datatype="&xsd;string">MET148 in DMPK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000132 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000132">
+		<rdfs:label rdf:datatype="&xsd;string">MET150 in NIM1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000133 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000133">
+		<rdfs:label rdf:datatype="&xsd;string">MET153 in MRCKB</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000134 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000134">
+		<rdfs:label rdf:datatype="&xsd;string">MET153 in ROCK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000135 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000135">
+		<rdfs:label rdf:datatype="&xsd;string">MET154 in MRCKA</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000136 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000136">
+		<rdfs:label rdf:datatype="&xsd;string">MET166 in NDR1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000137 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000137">
+		<rdfs:label rdf:datatype="&xsd;string">MET167 in NDR2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000138 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000138">
+		<rdfs:label rdf:datatype="&xsd;string">MET169 in ROCK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000139 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000139">
+		<rdfs:label rdf:datatype="&xsd;string">MET174 in CIT</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000140 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000140">
+		<rdfs:label rdf:datatype="&xsd;string">MET174 in MLK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000141 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000141">
+		<rdfs:label rdf:datatype="&xsd;string">MET178 in MP2K4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000142 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000142">
+		<rdfs:label rdf:datatype="&xsd;string">MET180 in MYLK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000143 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000143">
+		<rdfs:label rdf:datatype="&xsd;string">MET190 in M3K12</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000144 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000144">
+		<rdfs:label rdf:datatype="&xsd;string">MET192 in STK33</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000145 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000145">
+		<rdfs:label rdf:datatype="&xsd;string">MET193 in MLK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000146 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000146">
+		<rdfs:label rdf:datatype="&xsd;string">MET1947 in LRRK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000147 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000147">
+		<rdfs:label rdf:datatype="&xsd;string">MET1947 in LRRK2(G2019S)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000148 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000148">
+		<rdfs:label rdf:datatype="&xsd;string">MET196 in MP2K7</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000149 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000149">
+		<rdfs:label rdf:datatype="&xsd;string">MET196 in TNK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000150 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000150">
+		<rdfs:label rdf:datatype="&xsd;string">MET220 in MLK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000151 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000151">
+		<rdfs:label rdf:datatype="&xsd;string">MET225 in AKT3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000152 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000152">
+		<rdfs:label rdf:datatype="&xsd;string">MET227 in AKT1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000153 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000153">
+		<rdfs:label rdf:datatype="&xsd;string">MET229 in AKT2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000154 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000154">
+		<rdfs:label rdf:datatype="&xsd;string">MET233 in M3K13</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000155 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000155">
+		<rdfs:label rdf:datatype="&xsd;string">MET267 in GRK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000156 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000156">
+		<rdfs:label rdf:datatype="&xsd;string">MET268 in GRK7</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000157 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000157">
+		<rdfs:label rdf:datatype="&xsd;string">MET279 in BMPR2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000158 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000158">
+		<rdfs:label rdf:datatype="&xsd;string">MET304 in CTK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000159 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000159">
+		<rdfs:label rdf:datatype="&xsd;string">MET315 in STK35</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000160 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000160">
+		<rdfs:label rdf:datatype="&xsd;string">MET323 in PAK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000161 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000161">
+		<rdfs:label rdf:datatype="&xsd;string">MET344 in PAK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000162 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000162">
+		<rdfs:label rdf:datatype="&xsd;string">MET357 in PAK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000163 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000163">
+		<rdfs:label rdf:datatype="&xsd;string">MET359 in MYLK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000164 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000164">
+		<rdfs:label rdf:datatype="&xsd;string">MET366 in PRKR</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000165 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000165">
+		<rdfs:label rdf:datatype="&xsd;string">MET384 in EIF2AK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000166 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000166">
+		<rdfs:label rdf:datatype="&xsd;string">MET395 in PAK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000167 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000167">
+		<rdfs:label rdf:datatype="&xsd;string">MET414 in ZAP70</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000168 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000168">
+		<rdfs:label rdf:datatype="&xsd;string">MET427 in KPCD</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000169 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000169">
+		<rdfs:label rdf:datatype="&xsd;string">MET433 in KPCL</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000170 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000170">
+		<rdfs:label rdf:datatype="&xsd;string">MET437 in M3K2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000171 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000171">
+		<rdfs:label rdf:datatype="&xsd;string">MET438 in KGP1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000172 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000172">
+		<rdfs:label rdf:datatype="&xsd;string">MET443 in MAP3K3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000173 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000173">
+		<rdfs:label rdf:datatype="&xsd;string">MET448 in SYK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000174 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000174">
+		<rdfs:label rdf:datatype="&xsd;string">MET451 in MAST1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000175 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000175">
+		<rdfs:label rdf:datatype="&xsd;string">MET458 in KPCT</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000176 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000176">
+		<rdfs:label rdf:datatype="&xsd;string">MET465 in DCLK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000177 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000177">
+		<rdfs:label rdf:datatype="&xsd;string">MET469 in DCAMKL2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000178 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000178">
+		<rdfs:label rdf:datatype="&xsd;string">MET469 in MAP3K14</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000179 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000179">
+		<rdfs:label rdf:datatype="&xsd;string">MET481 in PAK6</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000180 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000180">
+		<rdfs:label rdf:datatype="&xsd;string">MET486 in KPCE</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000181 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000181">
+		<rdfs:label rdf:datatype="&xsd;string">MET486 in RSK3(Kin.Dom.2-C-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000182 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000182">
+		<rdfs:label rdf:datatype="&xsd;string">MET498 in RPS6KA5(Kin.Dom.2-C-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000183 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000183">
+		<rdfs:label rdf:datatype="&xsd;string">MET499 in FAK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000184 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000184">
+		<rdfs:label rdf:datatype="&xsd;string">MET502 in FAK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000185 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000185">
+		<rdfs:label rdf:datatype="&xsd;string">MET516 in CDC2L1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000186 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000186">
+		<rdfs:label rdf:datatype="&xsd;string">MET523 in PAK7</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000187 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000187">
+		<rdfs:label rdf:datatype="&xsd;string">MET589 in MLCK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000188 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000188">
+		<rdfs:label rdf:datatype="&xsd;string">MET602 in TTK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000189 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000189">
+		<rdfs:label rdf:datatype="&xsd;string">MET604 in NEK10</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000190 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000190">
+		<rdfs:label rdf:datatype="&xsd;string">MET627 in KPCD2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000191 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000191">
+		<rdfs:label rdf:datatype="&xsd;string">MET636 in FES</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000192 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000192">
+		<rdfs:label rdf:datatype="&xsd;string">MET637 in FER</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000193 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000193">
+		<rdfs:label rdf:datatype="&xsd;string">MET652 in KPCD3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000194 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000194">
+		<rdfs:label rdf:datatype="&xsd;string">MET659 in KPCD1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000195 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000195">
+		<rdfs:label rdf:datatype="&xsd;string">MET695 in PKN1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000196 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000196">
+		<rdfs:label rdf:datatype="&xsd;string">MET722 in M3K6</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000197 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000197">
+		<rdfs:label rdf:datatype="&xsd;string">MET734 in RIPK5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000198 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000198">
+		<rdfs:label rdf:datatype="&xsd;string">MET736 in MAP3K15</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000199 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000199">
+		<rdfs:label rdf:datatype="&xsd;string">MET737 in PKN2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000200 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000200">
+		<rdfs:label rdf:datatype="&xsd;string">MET745 in LATS2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000201 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000201">
+		<rdfs:label rdf:datatype="&xsd;string">MET754 in M3K5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000202 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000202">
+		<rdfs:label rdf:datatype="&xsd;string">MET782 in LATS1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000203 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000203">
+		<rdfs:label rdf:datatype="&xsd;string">MET79 in NEK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000204 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000204">
+		<rdfs:label rdf:datatype="&xsd;string">MET80 in NEK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000205 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000205">
+		<rdfs:label rdf:datatype="&xsd;string">MET80 in NEK5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000206 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000206">
+		<rdfs:label rdf:datatype="&xsd;string">MET82 in CSNK1D</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000207 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000207">
+		<rdfs:label rdf:datatype="&xsd;string">MET82 in CSNK1E</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000208 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000208">
+		<rdfs:label rdf:datatype="&xsd;string">MET83 in NEK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000209 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000209">
+		<rdfs:label rdf:datatype="&xsd;string">MET85 in ULK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000210 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000210">
+		<rdfs:label rdf:datatype="&xsd;string">MET86 in IKKE</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000211 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000211">
+		<rdfs:label rdf:datatype="&xsd;string">MET86 in NEK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000212 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000212">
+		<rdfs:label rdf:datatype="&xsd;string">MET86 in TBK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000213 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000213">
+		<rdfs:label rdf:datatype="&xsd;string">MET90 in CSNK1A1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000214 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000214">
+		<rdfs:label rdf:datatype="&xsd;string">MET90 in CSNK1A1L</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000215 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000215">
+		<rdfs:label rdf:datatype="&xsd;string">MET90 in M4K3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000216 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000216">
+		<rdfs:label rdf:datatype="&xsd;string">MET90 in MAP4K2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000217 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000217">
+		<rdfs:label rdf:datatype="&xsd;string">MET90 in TSSK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000218 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000218">
+		<rdfs:label rdf:datatype="&xsd;string">MET902 in JAK3(JH1domain-catalytic)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000219 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000219">
+		<rdfs:label rdf:datatype="&xsd;string">MET91 in M4K1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000220 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000220">
+		<rdfs:label rdf:datatype="&xsd;string">MET91 in ULK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000221 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000221">
+		<rdfs:label rdf:datatype="&xsd;string">MET92 in OSR1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000222 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000222">
+		<rdfs:label rdf:datatype="&xsd;string">MET92 in RIPK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000223 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000223">
+		<rdfs:label rdf:datatype="&xsd;string">MET92 in ULK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000224 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000224">
+		<rdfs:label rdf:datatype="&xsd;string">MET929 in JAK2(JH1domain-catalytic)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000225 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000225">
+		<rdfs:label rdf:datatype="&xsd;string">MET93 in AMPK-alpha2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000226 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000226">
+		<rdfs:label rdf:datatype="&xsd;string">MET94 in MAP4K5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000227 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000227">
+		<rdfs:label rdf:datatype="&xsd;string">MET95 in CAMK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000228 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000228">
+		<rdfs:label rdf:datatype="&xsd;string">MET95 in IKKA</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000229 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000229">
+		<rdfs:label rdf:datatype="&xsd;string">MET95 in YSK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000230 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000230">
+		<rdfs:label rdf:datatype="&xsd;string">MET956 in JAK1(Kin.Dom.1)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000231 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000231">
+		<rdfs:label rdf:datatype="&xsd;string">MET96 in IKKB</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000232 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000232">
+		<rdfs:label rdf:datatype="&xsd;string">MET96 in RIPK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000233 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000233">
+		<rdfs:label rdf:datatype="&xsd;string">MET97 in CAMK1G</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000234 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000234">
+		<rdfs:label rdf:datatype="&xsd;string">MET98 in ANKK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000235 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000235">
+		<rdfs:label rdf:datatype="&xsd;string">MET98 in CAMK1D</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000236 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000236">
+		<rdfs:label rdf:datatype="&xsd;string">MET99 in MST2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000237 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000237">
+		<rdfs:label rdf:datatype="&xsd;string">MET99 in MST4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000238 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000238">
+		<rdfs:label rdf:datatype="&xsd;string">PHE103 in CDK9</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000239 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000239">
+		<rdfs:label rdf:datatype="&xsd;string">PHE104 in PHKG1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000240 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000240">
+		<rdfs:label rdf:datatype="&xsd;string">PHE107 in PHKG2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000241 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000241">
+		<rdfs:label rdf:datatype="&xsd;string">PHE113 in CSNK2A1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000242 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000242">
+		<rdfs:label rdf:datatype="&xsd;string">PHE114 in CSNK2A2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000243 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000243">
+		<rdfs:label rdf:datatype="&xsd;string">PHE124 in MKNK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000244 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000244">
+		<rdfs:label rdf:datatype="&xsd;string">PHE159 in MKNK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000245 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000245">
+		<rdfs:label rdf:datatype="&xsd;string">PHE166 in SRPK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000246 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000246">
+		<rdfs:label rdf:datatype="&xsd;string">PHE178 in CDK15</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000247 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000247">
+		<rdfs:label rdf:datatype="&xsd;string">PHE190 in DYRK1B</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000248 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000248">
+		<rdfs:label rdf:datatype="&xsd;string">PHE210 in CDK14</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000249 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000249">
+		<rdfs:label rdf:datatype="&xsd;string">PHE217 in PCTK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000250 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000250">
+		<rdfs:label rdf:datatype="&xsd;string">PHE230 in KKCC1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000251 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000251">
+		<rdfs:label rdf:datatype="&xsd;string">PHE238 in DYRK1A</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000252 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000252">
+		<rdfs:label rdf:datatype="&xsd;string">PHE239 in CLK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000253 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000253">
+		<rdfs:label rdf:datatype="&xsd;string">PHE240 in CDK16</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000254 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000254">
+		<rdfs:label rdf:datatype="&xsd;string">PHE241 in CLK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000255 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000255">
+		<rdfs:label rdf:datatype="&xsd;string">PHE243 in CLK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000256 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000256">
+		<rdfs:label rdf:datatype="&xsd;string">PHE267 in CAMKK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000257 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000257">
+		<rdfs:label rdf:datatype="&xsd;string">PHE267 in PCTK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000258 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000258">
+		<rdfs:label rdf:datatype="&xsd;string">PHE268 in HIPK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000259 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000259">
+		<rdfs:label rdf:datatype="&xsd;string">PHE275 in HIPK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000260 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000260">
+		<rdfs:label rdf:datatype="&xsd;string">PHE277 in HIPK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000261 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000261">
+		<rdfs:label rdf:datatype="&xsd;string">PHE301 in DYRK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000262 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000262">
+		<rdfs:label rdf:datatype="&xsd;string">PHE384 in CLK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000263 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000263">
+		<rdfs:label rdf:datatype="&xsd;string">PHE435 in ITK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000264 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000264">
+		<rdfs:label rdf:datatype="&xsd;string">PHE589 in TRKA</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000265 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000265">
+		<rdfs:label rdf:datatype="&xsd;string">PHE609 in SRPK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000266 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000266">
+		<rdfs:label rdf:datatype="&xsd;string">PHE617 in TRKB</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000267 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000267">
+		<rdfs:label rdf:datatype="&xsd;string">PHE617 in TRKC</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000268 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000268">
+		<rdfs:label rdf:datatype="&xsd;string">PHE655 in MUSK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000269 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000269">
+		<rdfs:label rdf:datatype="&xsd;string">PHE691 in FLT3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000270 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000270">
+		<rdfs:label rdf:datatype="&xsd;string">PHE691 in FLT3(D835H)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000271 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000271">
+		<rdfs:label rdf:datatype="&xsd;string">PHE691 in FLT3(D835Y)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000272 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000272">
+		<rdfs:label rdf:datatype="&xsd;string">PHE691 in FLT3(ITD)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000273 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000273">
+		<rdfs:label rdf:datatype="&xsd;string">PHE691 in FLT3(K663Q)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000274 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000274">
+		<rdfs:label rdf:datatype="&xsd;string">PHE691 in FLT3(N841I)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000275 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000275">
+		<rdfs:label rdf:datatype="&xsd;string">PHE691 in FLT3(R834Q)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000276 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000276">
+		<rdfs:label rdf:datatype="&xsd;string">PHE691 in FLT3-autoinhibited</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000277 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000277">
+		<rdfs:label rdf:datatype="&xsd;string">PHE767 in PRP4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000278 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000278">
+		<rdfs:label rdf:datatype="&xsd;string">PHE79 in CDKL3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000279 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000279">
+		<rdfs:label rdf:datatype="&xsd;string">PHE79 in ICK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000280 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000280">
+		<rdfs:label rdf:datatype="&xsd;string">PHE79 in MAK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000281 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000281">
+		<rdfs:label rdf:datatype="&xsd;string">PHE791 in CDC2L5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000282 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000282">
+		<rdfs:label rdf:datatype="&xsd;string">PHE80 in CDK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000283 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000283">
+		<rdfs:label rdf:datatype="&xsd;string">PHE80 in CDK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000284 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000284">
+		<rdfs:label rdf:datatype="&xsd;string">PHE80 in CDK5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000285 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000285">
+		<rdfs:label rdf:datatype="&xsd;string">PHE80 in CDKL1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000286 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000286">
+		<rdfs:label rdf:datatype="&xsd;string">PHE80 in CDKL2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000287 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000287">
+		<rdfs:label rdf:datatype="&xsd;string">PHE89 in CAMK2A</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000288 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000288">
+		<rdfs:label rdf:datatype="&xsd;string">PHE89 in CDKL5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000289 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000289">
+		<rdfs:label rdf:datatype="&xsd;string">PHE89 in HIPK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000290 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000290">
+		<rdfs:label rdf:datatype="&xsd;string">PHE90 in CAMK2B</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000291 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000291">
+		<rdfs:label rdf:datatype="&xsd;string">PHE90 in CAMK2G</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000292 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000292">
+		<rdfs:label rdf:datatype="&xsd;string">PHE90 in KCC2D</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000293 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000293">
+		<rdfs:label rdf:datatype="&xsd;string">PHE91 in CASK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000294 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000294">
+		<rdfs:label rdf:datatype="&xsd;string">PHE91 in CDK7</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000295 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000295">
+		<rdfs:label rdf:datatype="&xsd;string">PHE92 in ERK8</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000296 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000296">
+		<rdfs:label rdf:datatype="&xsd;string">PHE93 in CDK4-cyclinD1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000297 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000297">
+		<rdfs:label rdf:datatype="&xsd;string">PHE93 in CDK4-cyclinD3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000298 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000298">
+		<rdfs:label rdf:datatype="&xsd;string">PHE97 in CDK11</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000299 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000299">
+		<rdfs:label rdf:datatype="&xsd;string">PHE97 in CDK8</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000300 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000300">
+		<rdfs:label rdf:datatype="&xsd;string">SER280 in TGFBR1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000301 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000301">
+		<rdfs:label rdf:datatype="&xsd;string">SER282 in ACVR1B</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000302 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000302">
+		<rdfs:label rdf:datatype="&xsd;string">THR103 in SIK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000303 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000303">
+		<rdfs:label rdf:datatype="&xsd;string">THR106 in MK11</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000304 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000304">
+		<rdfs:label rdf:datatype="&xsd;string">THR106 in MK14</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000305 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000305">
+		<rdfs:label rdf:datatype="&xsd;string">THR108 in NEK11</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000306 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000306">
+		<rdfs:label rdf:datatype="&xsd;string">THR123 in GAK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000307 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000307">
+		<rdfs:label rdf:datatype="&xsd;string">THR129 in TESK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000308 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000308">
+		<rdfs:label rdf:datatype="&xsd;string">THR187 in PKMYT1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000309 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000309">
+		<rdfs:label rdf:datatype="&xsd;string">THR205 in TNK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000310 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000310">
+		<rdfs:label rdf:datatype="&xsd;string">THR219 in NLK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000311 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000311">
+		<rdfs:label rdf:datatype="&xsd;string">THR227 in WNK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000312 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000312">
+		<rdfs:label rdf:datatype="&xsd;string">THR241 in MP2K5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000313 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000313">
+		<rdfs:label rdf:datatype="&xsd;string">THR264 in PTK6</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000314 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000314">
+		<rdfs:label rdf:datatype="&xsd;string">THR265 in ACVR2B</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000315 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000315">
+		<rdfs:label rdf:datatype="&xsd;string">THR266 in CSK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000316 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000316">
+		<rdfs:label rdf:datatype="&xsd;string">THR267 in ACVR2A</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000317 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000317">
+		<rdfs:label rdf:datatype="&xsd;string">THR277 in ACVRL1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000318 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000318">
+		<rdfs:label rdf:datatype="&xsd;string">THR279 in BMPR1B</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000319 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000319">
+		<rdfs:label rdf:datatype="&xsd;string">THR283 in ACVR1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000320 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000320">
+		<rdfs:label rdf:datatype="&xsd;string">THR301 in WNK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000321 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000321">
+		<rdfs:label rdf:datatype="&xsd;string">THR302 in SRMS</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000322 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000322">
+		<rdfs:label rdf:datatype="&xsd;string">THR306 in FRK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000323 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000323">
+		<rdfs:label rdf:datatype="&xsd;string">THR309 in BMPR1A</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000324 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000324">
+		<rdfs:label rdf:datatype="&xsd;string">THR312 in BLK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000325 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000325">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(E255K)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000326 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000326">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(E255K)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000327 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000327">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(F317I)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000328 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000328">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(F317I)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000329 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000329">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(F317L)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000330 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000330">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(F317L)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000331 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000331">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(H396P)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000332 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000332">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(H396P)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000333 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000333">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(M351T)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000334 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000334">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(M351T)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000335 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000335">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(Q252H)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000336 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000336">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(Q252H)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000337 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000337">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(T315I)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000338 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000338">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(T315I)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000339 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000339">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(Y253F)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000340 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000340">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1(Y253F)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000341 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000341">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000342 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000342">
+		<rdfs:label rdf:datatype="&xsd;string">THR315 in ABL1-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000343 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000343">
+		<rdfs:label rdf:datatype="&xsd;string">THR316 in LCK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000344 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000344">
+		<rdfs:label rdf:datatype="&xsd;string">THR319 in LYN</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000345 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000345">
+		<rdfs:label rdf:datatype="&xsd;string">THR325 in TGFBR2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000346 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000346">
+		<rdfs:label rdf:datatype="&xsd;string">THR333 in HCK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000347 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000347">
+		<rdfs:label rdf:datatype="&xsd;string">THR334 in FGR</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000348 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000348">
+		<rdfs:label rdf:datatype="&xsd;string">THR341 in SRC</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000349 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000349">
+		<rdfs:label rdf:datatype="&xsd;string">THR342 in FYN</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000350 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000350">
+		<rdfs:label rdf:datatype="&xsd;string">THR343 in TXK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000351 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000351">
+		<rdfs:label rdf:datatype="&xsd;string">THR348 in YES</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000352 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000352">
+		<rdfs:label rdf:datatype="&xsd;string">THR361 in ABL2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000353 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000353">
+		<rdfs:label rdf:datatype="&xsd;string">THR405 in LIMK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000354 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000354">
+		<rdfs:label rdf:datatype="&xsd;string">THR413 in LIMK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000355 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000355">
+		<rdfs:label rdf:datatype="&xsd;string">THR421 in RAF1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000356 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000356">
+		<rdfs:label rdf:datatype="&xsd;string">THR442 in TEC</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000357 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000357">
+		<rdfs:label rdf:datatype="&xsd;string">THR474 in BTK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000358 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000358">
+		<rdfs:label rdf:datatype="&xsd;string">THR489 in BMX</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000359 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000359">
+		<rdfs:label rdf:datatype="&xsd;string">THR489 in RSK1(Kin.Dom.2-C-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000360 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000360">
+		<rdfs:label rdf:datatype="&xsd;string">THR493 in RSK2(Kin.Dom.2-C-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000361 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000361">
+		<rdfs:label rdf:datatype="&xsd;string">THR497 in RSK4(Kin.Dom.2-C-terminal)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000362 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000362">
+		<rdfs:label rdf:datatype="&xsd;string">THR529 in BRAF</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000363 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000363">
+		<rdfs:label rdf:datatype="&xsd;string">THR529 in BRAF(V600E)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000364 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000364">
+		<rdfs:label rdf:datatype="&xsd;string">THR539 in TNNI3K</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000365 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000365">
+		<rdfs:label rdf:datatype="&xsd;string">THR654 in DDR2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000366 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000366">
+		<rdfs:label rdf:datatype="&xsd;string">THR663 in CSF1R</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000367 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000367">
+		<rdfs:label rdf:datatype="&xsd;string">THR663 in CSF1R-autoinhibited</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000368 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000368">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000369 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000369">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT(A829P)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000370 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000370">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT(D816H)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000371 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000371">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT(D816V)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000372 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000372">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT(L576P)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000373 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000373">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT(V559D)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000374 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000374">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT(V559D,T670I)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000375 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000375">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT(V559D,V654A)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000376 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000376">
+		<rdfs:label rdf:datatype="&xsd;string">THR670 in KIT-autoinhibited</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000377 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000377">
+		<rdfs:label rdf:datatype="&xsd;string">THR674 in PGFRA</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000378 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000378">
+		<rdfs:label rdf:datatype="&xsd;string">THR681 in PGFRB</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000379 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000379">
+		<rdfs:label rdf:datatype="&xsd;string">THR687 in TYK2(JH1domain-catalytic)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000380 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000380">
+		<rdfs:label rdf:datatype="&xsd;string">THR687 in TYK2(JH2domain-pseudokinase)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000381 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000381">
+		<rdfs:label rdf:datatype="&xsd;string">THR692 in EPHA2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000382 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000382">
+		<rdfs:label rdf:datatype="&xsd;string">THR693 in EPHB4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000383 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000383">
+		<rdfs:label rdf:datatype="&xsd;string">THR697 in EPHB1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000384 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000384">
+		<rdfs:label rdf:datatype="&xsd;string">THR699 in EPHA3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000385 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000385">
+		<rdfs:label rdf:datatype="&xsd;string">THR699 in EPHA4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000386 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000386">
+		<rdfs:label rdf:datatype="&xsd;string">THR699 in EPHB2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000387 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000387">
+		<rdfs:label rdf:datatype="&xsd;string">THR701 in DDR1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000388 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000388">
+		<rdfs:label rdf:datatype="&xsd;string">THR702 in EPHA1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000389 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000389">
+		<rdfs:label rdf:datatype="&xsd;string">THR711 in EPHB3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000390 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000390">
+		<rdfs:label rdf:datatype="&xsd;string">THR713 in EPHA8</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000391 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000391">
+		<rdfs:label rdf:datatype="&xsd;string">THR748 in EPHB6</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000392 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000392">
+		<rdfs:label rdf:datatype="&xsd;string">THR753 in EPHA5</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000393 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000393">
+		<rdfs:label rdf:datatype="&xsd;string">THR787 in ERBB3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000394 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000394">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000395 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000395">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(E746-A750del)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000396 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000396">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(G719C)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000397 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000397">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(G719S)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000398 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000398">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(L747-E749del, A750P)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000399 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000399">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(L747-S752del, P753S)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000400 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000400">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(L747-T751del,Sins)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000401 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000401">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(L858R)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000402 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000402">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(L858R,T790M)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000403 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000403">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(L861Q)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000404 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000404">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(S752-I759del)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000405 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000405">
+		<rdfs:label rdf:datatype="&xsd;string">THR790 in EGFR(T790M)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000406 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000406">
+		<rdfs:label rdf:datatype="&xsd;string">THR796 in ERBB4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000407 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000407">
+		<rdfs:label rdf:datatype="&xsd;string">THR798 in ERBB2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000408 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000408">
+		<rdfs:label rdf:datatype="&xsd;string">THR80 in STK36</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000409 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000409">
+		<rdfs:label rdf:datatype="&xsd;string">THR82 in MLTK</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000410 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000410">
+		<rdfs:label rdf:datatype="&xsd;string">THR84 in SIK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000411 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000411">
+		<rdfs:label rdf:datatype="&xsd;string">THR95 in RIPK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000412 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000412">
+		<rdfs:label rdf:datatype="&xsd;string">THR96 in SIK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000413 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000413">
+		<rdfs:label rdf:datatype="&xsd;string">TYR241 in IRAK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000414 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000414">
+		<rdfs:label rdf:datatype="&xsd;string">TYR262 in IRAK4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000415 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000415">
+		<rdfs:label rdf:datatype="&xsd;string">TYR288 in IRAK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000416 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000416">
+		<rdfs:label rdf:datatype="&xsd;string">VAL100 in YANK1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000417 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000417">
+		<rdfs:label rdf:datatype="&xsd;string">VAL100 in YANK2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000418 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000418">
+		<rdfs:label rdf:datatype="&xsd;string">VAL170 in YANK3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000419 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000419">
+		<rdfs:label rdf:datatype="&xsd;string">VAL379 in GCN2(Kin.Dom.2,S808G)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000420 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000420">
+		<rdfs:label rdf:datatype="&xsd;string">VAL550 in FGFR4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000421 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000421">
+		<rdfs:label rdf:datatype="&xsd;string">VAL555 in FGFR3</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000422 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000422">
+		<rdfs:label rdf:datatype="&xsd;string">VAL555 in FGFR3(G697C)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000423 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000423">
+		<rdfs:label rdf:datatype="&xsd;string">VAL561 in FGFR1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000424 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000424">
+		<rdfs:label rdf:datatype="&xsd;string">VAL564 in FGFR2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000425 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000425">
+		<rdfs:label rdf:datatype="&xsd;string">VAL751 in EPHA6</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000426 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000426">
+		<rdfs:label rdf:datatype="&xsd;string">VAL804 in RET</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000427 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000427">
+		<rdfs:label rdf:datatype="&xsd;string">VAL804 in RET(M918T)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000428 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000428">
+		<rdfs:label rdf:datatype="&xsd;string">VAL804 in RET(V804L)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000429 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000429">
+		<rdfs:label rdf:datatype="&xsd;string">VAL804 in RET(V804M)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000430 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000430">
+		<rdfs:label rdf:datatype="&xsd;string">VAL909 in VGFR1</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000431 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000431">
+		<rdfs:label rdf:datatype="&xsd;string">VAL916 in VGFR2</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000432 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000432">
+		<rdfs:label rdf:datatype="&xsd;string">VAL927 in FLT4</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000433 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000433">
+		<rdfs:label rdf:datatype="&xsd;string">ASN</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000434 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000434">
+		<rdfs:label rdf:datatype="&xsd;string">GLN</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000435 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000435">
+		<rdfs:label rdf:datatype="&xsd;string">GLU</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000436 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000436">
+		<rdfs:label rdf:datatype="&xsd;string">GLY</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000437 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000437">
+		<rdfs:label rdf:datatype="&xsd;string">ILE</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000438 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000438">
+		<rdfs:label rdf:datatype="&xsd;string">LEU</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000439 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000439">
+		<rdfs:label rdf:datatype="&xsd;string">MET</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000440 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000440">
+		<rdfs:label rdf:datatype="&xsd;string">PHE</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000441 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000441">
+		<rdfs:label rdf:datatype="&xsd;string">SER</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000442 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000442">
+		<rdfs:label rdf:datatype="&xsd;string">THR</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000443 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000443">
+		<rdfs:label rdf:datatype="&xsd;string">TYR</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62000444 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62000444">
+		<rdfs:label rdf:datatype="&xsd;string">VAL</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100000 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100000">
+		<rdfs:label rdf:datatype="&xsd;string">mutated residue</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100002 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100002">
+		<rdfs:label rdf:datatype="&xsd;string">A545 in PIK3CA(E545A)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100003 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100003">
+		<rdfs:label rdf:datatype="&xsd;string">A746-A750del in EGFR(E746-A750del)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100004 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100004">
+		<rdfs:label rdf:datatype="&xsd;string">C697 in FGFR3(G697C)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100005 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100005">
+		<rdfs:label rdf:datatype="&xsd;string">C719 in EGFR(G719C)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100006 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100006">
+		<rdfs:label rdf:datatype="&xsd;string">D1235 in MET(Y1235D)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100007 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100007">
+		<rdfs:label rdf:datatype="&xsd;string">D559 and A654 in KIT(V559D,V654A)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100008 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100008">
+		<rdfs:label rdf:datatype="&xsd;string">D559 and I670 in KIT(V559D,T670I)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100009 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100009">
+		<rdfs:label rdf:datatype="&xsd;string">D559 in KIT(V559D)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100010 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100010">
+		<rdfs:label rdf:datatype="&xsd;string">E600 in BRAF(V600E)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100011 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100011">
+		<rdfs:label rdf:datatype="&xsd;string">F253 in ABL1(Y253F)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100012 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100012">
+		<rdfs:label rdf:datatype="&xsd;string">F253 in ABL1(Y253F)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100013 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100013">
+		<rdfs:label rdf:datatype="&xsd;string">G808 in GCN2(Kin.Dom.2,S808G)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100014 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100014">
+		<rdfs:label rdf:datatype="&xsd;string">H252 in ABL1(Q252H)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100015 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100015">
+		<rdfs:label rdf:datatype="&xsd;string">H252 in ABL1(Q252H)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100016 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100016">
+		<rdfs:label rdf:datatype="&xsd;string">H816 in KIT(D816H)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100017 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100017">
+		<rdfs:label rdf:datatype="&xsd;string">H835 in FLT3(D835H)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100018 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100018">
+		<rdfs:label rdf:datatype="&xsd;string">I1043 in PIK3CA(M1043I)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100019 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100019">
+		<rdfs:label rdf:datatype="&xsd;string">I315 in ABL1(T315I)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100020 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100020">
+		<rdfs:label rdf:datatype="&xsd;string">I315 in ABL1(T315I)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100021 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100021">
+		<rdfs:label rdf:datatype="&xsd;string">I317 in ABL1(F317I)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100022 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100022">
+		<rdfs:label rdf:datatype="&xsd;string">I317 in ABL1(F317I)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100023 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100023">
+		<rdfs:label rdf:datatype="&xsd;string">I841 in FLT3(N841I)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100024 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100024">
+		<rdfs:label rdf:datatype="&xsd;string">ITD in FLT3(ITD)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100025 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100025">
+		<rdfs:label rdf:datatype="&xsd;string">K255 in ABL1(E255K)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100026 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100026">
+		<rdfs:label rdf:datatype="&xsd;string">K255 in ABL1(E255K)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100027 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100027">
+		<rdfs:label rdf:datatype="&xsd;string">K542 in PIK3CA(E542K)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100028 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100028">
+		<rdfs:label rdf:datatype="&xsd;string">K545 in PIK3CA(E545K)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100029 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100029">
+		<rdfs:label rdf:datatype="&xsd;string">K546 in PIK3CA(Q546K)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100030 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100030">
+		<rdfs:label rdf:datatype="&xsd;string">L1047 in PIK3CA(H1047L)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100031 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100031">
+		<rdfs:label rdf:datatype="&xsd;string">L317 in ABL1(F317L)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100032 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100032">
+		<rdfs:label rdf:datatype="&xsd;string">L317 in ABL1(F317L)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100033 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100033">
+		<rdfs:label rdf:datatype="&xsd;string">L747-E749del and P750 in EGFR(L747-E749del, A750P)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100034 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100034">
+		<rdfs:label rdf:datatype="&xsd;string">L747-S752del and S753 in EGFR(L747-S752del, P753S)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100035 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100035">
+		<rdfs:label rdf:datatype="&xsd;string">L800 in PIK3CA(I800L)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100036 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100036">
+		<rdfs:label rdf:datatype="&xsd;string">L804 in RET(V804L)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100037 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100037">
+		<rdfs:label rdf:datatype="&xsd;string">M1196 in ALK(L1196M)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100038 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100038">
+		<rdfs:label rdf:datatype="&xsd;string">M790 in EGFR(T790M)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100039 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100039">
+		<rdfs:label rdf:datatype="&xsd;string">M804 in RET(V804M)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100040 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100040">
+		<rdfs:label rdf:datatype="&xsd;string">P396 in ABL1(H396P)-nonphosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100041 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100041">
+		<rdfs:label rdf:datatype="&xsd;string">P396 in ABL1(H396P)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100042 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100042">
+		<rdfs:label rdf:datatype="&xsd;string">P576 in KIT(L576P)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100043 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100043">
+		<rdfs:label rdf:datatype="&xsd;string">P829 in KIT(A829P)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100044 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100044">
+		<rdfs:label rdf:datatype="&xsd;string">Q663 in FLT3(K663Q)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100045 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100045">
+		<rdfs:label rdf:datatype="&xsd;string">Q834 in FLT3(R834Q)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100046 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100046">
+		<rdfs:label rdf:datatype="&xsd;string">Q861 in EGFR(L861Q)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100047 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100047">
+		<rdfs:label rdf:datatype="&xsd;string">R420 in PIK3CA(C420R)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100048 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100048">
+		<rdfs:label rdf:datatype="&xsd;string">R858 and M790 in EGFR(L858R,T790M)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100049 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100049">
+		<rdfs:label rdf:datatype="&xsd;string">R858 in EGFR(L858R)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100050 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100050">
+		<rdfs:label rdf:datatype="&xsd;string">S2019 in LRRK2(G2019S)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100051 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100051">
+		<rdfs:label rdf:datatype="&xsd;string">S719 in EGFR(G719S)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100052 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100052">
+		<rdfs:label rdf:datatype="&xsd;string">S752-I759del in EGFR(S752-I759del)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100053 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100053">
+		<rdfs:label rdf:datatype="&xsd;string">T1250 in MET(M1250T)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100054 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100054">
+		<rdfs:label rdf:datatype="&xsd;string">T351 in ABL1(M351T)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100055 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100055">
+		<rdfs:label rdf:datatype="&xsd;string">T351 in ABL1(M351T)-phosphorylated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100056 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100056">
+		<rdfs:label rdf:datatype="&xsd;string">T747-T751del and Silenced in EGFR(L747-T751del,Sins)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100057 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100057">
+		<rdfs:label rdf:datatype="&xsd;string">T918 in RET(M918T)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100058 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100058">
+		<rdfs:label rdf:datatype="&xsd;string">V816 in KIT(D816V)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100059 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100059">
+		<rdfs:label rdf:datatype="&xsd;string">Y1047 in PIK3CA(H1047Y)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100060 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100060">
+		<rdfs:label rdf:datatype="&xsd;string">Y1156 in ALK(C1156Y)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62100061 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62100061">
+		<rdfs:label rdf:datatype="&xsd;string">Y835 in FLT3(D835Y)</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62100000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62200000 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62200000">
+		<rdfs:label rdf:datatype="&xsd;string">phosphorylated residue</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_62300000 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_62300000">
+		<rdfs:label rdf:datatype="&xsd;string">gatekeeper residue</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_62000000"/>
+	</owl:Class>
+
+</rdf:RDF>
