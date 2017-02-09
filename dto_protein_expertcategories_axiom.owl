@@ -315,7 +315,7 @@
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100128"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DTO_00400003"/>
+                        <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400003"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -333,7 +333,7 @@
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100128"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DTO_00400002"/>
+                        <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400002"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -351,7 +351,7 @@
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100128"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DTO_00400202"/>
+                        <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400202"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -369,7 +369,7 @@
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100128"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DTO_00400004"/>
+                        <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400004"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
