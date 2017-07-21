@@ -1,0 +1,4000 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_chebi_axiom.owl#"
+     xml:base="http://www.drugtargetontology.org/dto/dto_chebi_axiom.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dto="http://www.drugtargetontology.org/dto/">
+    <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_chebi_axiom.owl">
+        <owl:versionIRI rdf:resource="http://www.drugtargetontology.org/dto/dto_chebi_axiom.owl"/>
+        <rdfs:label>Drug Target Ontology</rdfs:label>
+        <rdfs:comment>Release date: December 28, 2015</rdfs:comment>
+        <rdfs:label>DTO</rdfs:label>
+        <rdfs:comment>Created by: Saurabh Mehta, Nooshin Nabizadeh, Amar Koleti, Dusica Vidovic, Yu Asiyah Lin, Hande McGinty, Stephan Schurer*</rdfs:comment>
+        <rdfs:comment>Contact:
+	Stephan Schurer
+	stephan dot schurer at gmail dot com</rdfs:comment>
+        <rdfs:comment>This file contains the axoims for chebi import</rdfs:comment>
+        <owl:versionInfo>1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18357 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18357">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_28918 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28918">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000076 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000076">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_116390 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_116390">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_34144 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34144">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_72795 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72795">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_63977 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63977">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_34144 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34144">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_34146 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34146">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_63977 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63977">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15558 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15558">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000034 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000034">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_52392 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52392">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18397 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18397">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15646 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15646">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_20067 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_20067">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_37098 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37098">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000074 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000074">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000231 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000231">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000576 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000576">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000130 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000130">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000175 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000175">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_52449 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52449">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000215 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000215">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_28209 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28209">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15632 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15632">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16761 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16761">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15422 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15422">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15355 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15355">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16335 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16335">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000003 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000003">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80339 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80339">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80340 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80340">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000119 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000119">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_27432 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27432">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80337 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80337">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000045 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000045">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80261 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80261">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000057 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000057">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80342 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80342">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_2700 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2700">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000004 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000004">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_48432 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48432">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_89666 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_89666">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80127 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80127">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_22563 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22563">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000096 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000096">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000028 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000028">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80131 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80131">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000005 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000005">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80132 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80132">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000058 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000058">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000158 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000158">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000187 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000187">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80338 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80338">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_20067 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_20067">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000014 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000014">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_10415 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10415">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80262 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80262">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18397 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18397">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_3165 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3165">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000046 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000046">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000007 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000007">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000008 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000008">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80345 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80345">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_0900099 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_0900099">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80327 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80327">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000015 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000015">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000012 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000012">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000011 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000011">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000151 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000151">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000153 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000153">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000040 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000040">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000013 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000013">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000002 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000002">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000152 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000152">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000087 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000087">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000088 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000088">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000086 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000086">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000207 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000207">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000208 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000208">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000016 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000016">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000219 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000219">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000010 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000010">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000084 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000084">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_30736 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30736">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_27385 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27385">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000037 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000037">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000183 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000183">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000085 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000085">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000141 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000141">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000019 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000019">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000021 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000021">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000209 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000209">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000075 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000075">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000001 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000001">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000022 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000022">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000023 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000023">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000092 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000092">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000157 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000157">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000186 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000186">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000156 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000156">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000220 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000220">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000185 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000185">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000229 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000229">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_3306 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3306">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000618 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000618">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_36916 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36916">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000017 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000017">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16755 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16755">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_17996 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17996">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16359 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16359">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_65312 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65312">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000069 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000069">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000020 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000020">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_28834 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28834">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000051 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000051">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000121 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000121">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000188 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000188">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16893 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16893">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_60427 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60427">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_36005 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36005">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18243 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18243">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_4727 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4727">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000128 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000128">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000174 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000174">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80347 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80347">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80156 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80156">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80240 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80240">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80242 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80242">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80243 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80243">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000097 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000097">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_50277 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50277">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000043 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000043">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000071 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000071">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_00000001 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80161 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80161">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80349 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80349">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000032 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000032">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000049 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000049">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_75441 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75441">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80328 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80328">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_75431 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75431">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_5391 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5391">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000100 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000100">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000162 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000162">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80271 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80271">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000101 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000101">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15428 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15428">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000033 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000033">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80298 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80298">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000068 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000068">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000139 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000139">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000067 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000067">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000137 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000137">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000044 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000044">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000048 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000048">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18295 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18295">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80290 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80290">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_17544 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17544">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80336 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80336">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000138 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000138">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_6102 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6102">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80307 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80307">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80306 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80306">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80305 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80305">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000192 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000192">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16977 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16977">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16467 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16467">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16349 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16349">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16015 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16015">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18050 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18050">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000039 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000039">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18019 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18019">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15729 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15729">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_17115 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17115">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000112 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000112">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16828 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16828">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_81568 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_81568">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_81664 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_81664">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000038 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000038">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15647 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15647">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16978 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16978">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_28666 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28666">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15650 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15650">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_6603 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6603">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_6498 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6498">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000053 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000053">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000126 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000126">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_17351 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17351">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16325 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16325">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80254 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80254">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16796 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16796">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80269 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80269">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_58961 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_58961">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000566 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000566">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000102 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000102">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_73688 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73688">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80311 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80311">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80312 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80312">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80139 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80139">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000050 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000050">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000120 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000120">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80259 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80259">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80258 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80258">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80326 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80326">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80309 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80309">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_53461 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53461">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80257 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80257">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80256 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80256">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80201 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80201">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000124 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000124">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80310 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80310">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_7542 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7542">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80266 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80266">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_33569 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33569">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80319 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80319">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80320 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80320">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_7872 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7872">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80303 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80303">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80302 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80302">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000063 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000063">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15555 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15555">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000060 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000060">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15553 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15553">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15552 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15552">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_27485 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27485">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000204 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000204">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/DTO_09000614 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000614">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80274 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80274">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000065 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000065">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80274 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80274">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000198 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000198">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80329 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80329">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80330 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80330">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000027 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000027">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000062 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000062">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000134 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000134">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000061 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000061">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000133 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000133">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000177 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000177">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000024 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000024">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000066 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000066">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000136 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000136">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80324 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80324">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_81564 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_81564">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_81559 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_81559">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000081 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000081">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000093 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000093">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000164 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000164">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000179 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000179">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000203 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000203">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_34972 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34972">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000232 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000232">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15746 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15746">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_37550 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37550">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000026 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000026">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80308 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80308">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15741 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15741">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16189 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16189">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80238 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80238">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80275 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80275">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000617 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000617">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_9574 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9574">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16765 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16765">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15760 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15760">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_17659 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17659">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_67119 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_67119">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_67119 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_67119">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18066 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18066">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15713 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15713">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80295 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80295">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80296 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80296">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80297 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80297">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80244 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80244">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000144 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000144">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80331 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80331">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_9937 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9937">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000029 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000029">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000098 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000098">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000160 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000160">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000146 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000146">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000072 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000072">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_29105 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29105">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000030 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000030">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_0900052 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_0900052">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80263 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80263">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000181 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000181">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://www.drugtargetontology.org/dto/DTO_09000079 -->
+
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_09000079">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_133068 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_133068">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15355 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15355">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16335 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16335">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_80261 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80261">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_2700 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2700">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_48432 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48432">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_22563 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22563">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_10415 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10415">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_3165 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3165">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_29108 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29108">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_36916 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36916">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16755 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16755">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_17996 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17996">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_36005 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36005">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18243 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18243">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_50277 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50277">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_75441 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75441">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_75431 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75431">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_5391 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5391">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15428 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15428">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18295 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18295">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_17544 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17544">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16978 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16978">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_6498 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6498">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_49713 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_49713">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18420 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18420">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16796 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16796">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_53461 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53461">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_7542 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7542">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_33569 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33569">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_30623 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30623">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_18303 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18303">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_29103 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29103">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15555 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15555">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_24636 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24636">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_28790 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28790">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_29101 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29101">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16893 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16893">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_37550 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37550">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_15741 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15741">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/CHEBI_16189 -->
+
+	<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16189">
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
+				<owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_02300001"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+	</owl:Class>
+	
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

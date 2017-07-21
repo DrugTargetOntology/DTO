@@ -1,24 +1,45 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_complete.owl/"
-     xml:base="http://www.drugtargetontology.org/dto/dto_complete.owl/"
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_complete.owl#"
+     xml:base="http://www.drugtargetontology.org/dto/dto_complete.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:doid="http://purl.obolibrary.org/obo/doid#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cellline="http://www.ebi.ac.uk/cellline/"
      xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
      xmlns:dto_vocabulary_kinase_domain="http://www.drugtargetontology.org/dto/dto_vocabulary_kinase_domain.owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dto1="http://www.drugtargetontology.org/dto#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dto_vocabulary_kinase_domain1="http://www.drugtargetontology.org/dto/dto_vocabulary_kinase_domain#"
      xmlns:dto="http://www.drugtargetontology.org/dto/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_complete.owl">
-        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_axioms.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_automated_axioms.owl"/>
-        <owl:imports rdf:resource="http://www.durgtargetontology.org/dto/dto_core.owl"/>
+        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_core.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_external.owl"/>
+        <rdfs:label>Drug Target Ontology</rdfs:label>
+        <rdfs:label>DTO</rdfs:label>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <dc:contributor>Yu Lin, Saurabh Mehta, Hande Küçük- McGinty, John Paul Turner, Dusica Vidovic, Michele Forlin, Amar Koleti, Dac-Trung Nguyen, Lars Juhl Jensen, Rajarshi Guha, Stephen L. Mathias, Oleg Ursu, Vasileios Stathias, Jianbin Duan, Nooshin Nabizadeh, Caty Chung, Christopher Mader, Ubbo Visser, Jeremy J. Yang, Cristian G. Bologa, Tudor Oprea*, Stephan C. Schürer*</dc:contributor>
+        <dc:date>20 Jul 2017</dc:date>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <dc:description>
+		Drug target ontology files Drug Target Ontology (DTO) is being developed at the University of Miami in the research group of Stephan Schürer. 
+		DTO is supported by grant U54CA189205 (Illuminating the Druggable Genome Knowledge Management Center, Tudor Oprea, PI) awarded by the NCI through
+		the NIH Common Fund. It is a component of the Illuminating the Druggable Genome (IDG) project (https://commonfund.nih.gov/idg). The DTO project 
+		develops a novel semantic framework to formalize knowledge about drug targets with a focus on the current IDG protein families. The DTO is developed
+		as a reference for drug targets with the longer-term goal to create a community standard that will facilitate the integration of diverse drug discovery
+		information from numerous heterogeneous resources. The first version of the DTO consists of asserted class hierarchies of the four IDG protein families,
+		GPCRs, kinases, ion channels, and nuclear hormone receptors. Protein classes are linked to tissue and disease via different levels of confidence. DTO 
+		also contains drug target development classifications, a large collection of cell lines from the LINCS project and relevant cell-disease and cell-tissue
+		relations. DTO is modeled in OWL2-DL to enable further classification by inference reasoning and SPARQL queries. DTO is implemented following a 
+		modularization approach. DTO will serve as the organizational framework for drug targets in the IDG PHAROS User Interface Portal (https://pharos.nih.gov).
+		</dc:description>
+        <rdfs:comment xml:lang="en">contact: Stephan Schurer:  stephan dot schurer at gmail dot com</rdfs:comment>
     </owl:Ontology>
 </rdf:RDF>
 

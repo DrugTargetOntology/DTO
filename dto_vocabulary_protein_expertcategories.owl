@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_vocabulary_protein_expertcategories#"
-     xml:base="http://www.drugtargetontology.org/dto/dto_vocabulary_protein_expertcategories"
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_vocabulary_protein_expertcategories.owl#"
+     xml:base="http://www.drugtargetontology.org/dto/dto_vocabulary_protein_expertcategories.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -29,9 +29,12 @@
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/definition -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://www.drugtargetontology.org/dto/definition"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -46,10 +49,51 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32952"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000001 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000004 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000004">
+        <obo:IAO_0000115 xml:lang="en">A material entity, such as native (gene product) protein, protein complex, microorganism, DNA , etc., that physically interacts with a therapeutic or prophylactic drug (with some binding affinity) and where this physical interaction is (at least partially) the cause of a (detectable) clinical effect.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Tudor Oprea, Stephan Schurer, Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">drug target</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://drugcentral.org/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://www.drugtargetontology.org/dto/DTO_00000005 -->
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000005">
-        <dto:definition xml:lang="en">Tclin are proteins targeted by approved drugs as they exert their mode of action.</dto:definition>
+        <obo:IAO_0000115 xml:lang="en">Tclin are proteins targeted by approved drugs as they exert their mode of action.</obo:IAO_0000115>
         <rdfs:comment>Drug targets are entities with molecular mass present in living systems that, upon interaction with therapeutic agents or their byproducts, result in modified biologic responses that lead to therapeutic outcomes. Here “living systems” encompass humans or animals (e.g., for veterinary medicines) and foreign organisms such as viruses, bacteria or parasites that may be infest humans or animals.
 The interaction between a drug and its target results in observable clinical outcomes.
 For drug targets, “mode of action” (MoA), referred to as “mechanism of action” when the molecular interactions are well understood, describes the way in which drugs exert their intended therapeutic action, resulting in the intended therapeutic outcome, i.e., the indication(s) stated on the approved drug label, or otherwise the desired outcome (for off-label usage). Some drug-target interactions may lead to unintended clinical outcomes, i.e., side effects or adverse drug reactions. While side effects can be mediated by MoA targets, they are often the result of the interaction between the drug or its metabolites and other proteins.
@@ -63,7 +107,7 @@ For drug targets, “mode of action” (MoA), referred to as “mechanism of act
     <!-- http://www.drugtargetontology.org/dto/DTO_00000006 -->
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000006">
-        <dto:definition xml:lang="en">Tchem are proteins that can specifically be manipulated with small molecules better than bioactivity cutoff values (30 nM for kinases, 100 nM for GPCRs and NRs, 10 uM for ICs, and 1 uM for other target classes), which lack approved small molecule or biologic drugs. In some cases, targets have been manually migrated to Tchem through human curation, based on small molecule activities from sources other than ChEMBL or Drug Central.</dto:definition>
+        <obo:IAO_0000115 xml:lang="en">Tchem are proteins that can specifically be manipulated with small molecules better than bioactivity cutoff values (30 nM for kinases, 100 nM for GPCRs and NRs, 10 uM for ICs, and 1 uM for other target classes), which lack approved small molecule or biologic drugs. In some cases, targets have been manually migrated to Tchem through human curation, based on small molecule activities from sources other than ChEMBL or Drug Central.</obo:IAO_0000115>
         <rdfs:isDefinedBy xml:lang="en">IDG; http://www.nature.com/nrd/posters/druggablegenome/nrd_druggablegenome.pdf</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Tchem protein</rdfs:label>
     </owl:Class>
@@ -73,8 +117,8 @@ For drug targets, “mode of action” (MoA), referred to as “mechanism of act
     <!-- http://www.drugtargetontology.org/dto/DTO_00000007 -->
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000007">
-        <dto:definition xml:lang="en">Tbio are proteins that do not satisfy the Tclin or Tchem criteria, which are annotated with a Gene Ontology Molecular Function or Biological Process with an Experimental Evidence code, or targets with confirmed OMIM phenotype(s), or do not satisfy the Tdark drug target criteria.</dto:definition>
-        <rdfs:isDefinedBy xml:lang="en">IDG</rdfs:isDefinedBy>
+        <obo:IAO_0000115 xml:lang="en">Tbio are proteins that do not satisfy the Tclin or Tchem criteria, which are annotated with a Gene Ontology Molecular Function or Biological Process with an Experimental Evidence code, or targets with confirmed OMIM phenotype(s), or do not satisfy the Tdark drug target criteria.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">IDG; http://www.nature.com/nrd/posters/druggablegenome/nrd_druggablegenome.pdf</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Tbio protein</rdfs:label>
     </owl:Class>
     
@@ -83,16 +127,174 @@ For drug targets, “mode of action” (MoA), referred to as “mechanism of act
     <!-- http://www.drugtargetontology.org/dto/DTO_00000008 -->
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000008">
-        <dto:definition xml:lang="en">Tdark refers to proteins that have been described at the sequence level and have very few associated studies. They do not have any known drug or small molecule activities that satisfy the activity thresholds detailed in 2), lack OMIM and GO terms that would match Tbio criteria, and meet at least two of the following conditions: 1)A PubMed text-mining score &lt; 5; 2) &lt; = 3 Gene RIFs; 3)&lt;= 50 Antibodies available according to http://antibodypedia.com</dto:definition>
+        <obo:IAO_0000115 xml:lang="en">Tdark refers to proteins that have been described at the sequence level and have very few associated studies. They do not have any known drug or small molecule activities that satisfy the activity thresholds detailed in 2), lack OMIM and GO terms that would match Tbio criteria, and meet at least two of the following conditions: 1)A PubMed text-mining score &lt; 5; 2) &lt; = 3 Gene RIFs; 3)&lt;= 50 Antibodies available according to http://antibodypedia.com</obo:IAO_0000115>
         <rdfs:isDefinedBy xml:lang="en">IDG; http://www.nature.com/nrd/posters/druggablegenome/nrd_druggablegenome.pdf</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Tdark protein</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100000 -->
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000009 -->
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">a role that is beared in a material entity, such as native (gene product) protein, protein complex, microorganism, DNA , etc., that physically interacts with a therapeutic or prophylactic drug (with some binding affinity) and where this physical interaction is (at least partially) the cause of a (detectable) clinical effect.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Tudor Oprea, Stephan Schurer, Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">drug target role</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://drugcentral.org/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000010 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32952"/>
+                    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A GPCR ligand that is classified as amine in CHEBI.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">amine GPCR ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000011 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000011">
+		<owl:equivalentClass>
+            <owl:Class>
+				<owl:intersectionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+					<rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+				</owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A GPCR ligand that is classified as amino acid in CHEBI.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">amino acid GPCR ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000012 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000012">
+		<owl:equivalentClass>
+            <owl:Class>
+				<owl:intersectionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33575"/>
+					<rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+				</owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A GPCR ligand that is classified as carboxylic acid in CHEBI.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">carboxylic acid GPCR ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000013 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000013">
+		<owl:equivalentClass>
+            <owl:Class>
+				<owl:intersectionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36914"/>
+					<rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+				</owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A GPCR ligand that is classified as inorganic ion in CHEBI.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">inorganic ion GPCR ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000014 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000014">
+		<owl:equivalentClass>
+            <owl:Class>
+				<owl:intersectionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059"/>
+					<rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+				</owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A GPCR ligand that is classified as lipid in CHEBI.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">lipid GPCR ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000015 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000015">
+		<owl:equivalentClass>
+            <owl:Class>
+				<owl:intersectionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33838"/>
+					<rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+				</owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A GPCR ligand that is classified as nucleoside in CHEBI.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">nucleoside GPCR ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000016 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000016">
+		<owl:equivalentClass>
+            <owl:Class>
+				<owl:intersectionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36976"/>
+					<rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+				</owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A GPCR ligand that is classified as nucleotide in CHEBI.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">nucleotide GPCR ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_00000017 -->
+
+    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000017">
+		<owl:equivalentClass>
+            <owl:Class>
+				<owl:intersectionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+					<rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+				</owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A GPCR ligand that is classified as peptide in CHEBI.</obo:IAO_0000115>
+        <rdfs:isDefinedBy xml:lang="en">Asiyah Yu Lin</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">peptide GPCR ligand</rdfs:label>
+    </owl:Class>
     
 
 
@@ -208,6 +410,8 @@ For drug targets, “mode of action” (MoA), referred to as “mechanism of act
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_03390001">
         <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_03300101"/>
+        <obo:IAO_0000115 xml:lang="en">A protein containing a catalytically inactive kinase domain.</obo:IAO_0000115>
+        <rdfs:isDefinedBy>https://en.wiktionary.org/wiki/pseudokinase</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Pseudokinase</rdfs:label>
     </owl:Class>
     
@@ -216,7 +420,7 @@ For drug targets, “mode of action” (MoA), referred to as “mechanism of act
     <!-- http://www.drugtargetontology.org/dto/DTO_05390001 -->
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_05390001">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:label xml:lang="en">Putative infectious disease target</rdfs:label>
     </owl:Class>
     
@@ -225,7 +429,7 @@ For drug targets, “mode of action” (MoA), referred to as “mechanism of act
     <!-- http://www.drugtargetontology.org/dto/DTO_05390002 -->
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_05390002">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:label xml:lang="en">Putative mental health drug target</rdfs:label>
     </owl:Class>
     
@@ -234,12 +438,12 @@ For drug targets, “mode of action” (MoA), referred to as “mechanism of act
     <!-- http://www.drugtargetontology.org/dto/DTO_05390003 -->
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_05390003">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:label xml:lang="en">Putative metabolic drug target</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_core_axioms#"
-     xml:base="http://www.drugtargetontology.org/dto/dto_core_axioms"
+<rdf:RDF xmlns="http://www.drugtargetontology/dto/dto_protein_expertcategories_axiom.owl#"
+     xml:base="http://www.drugtargetontology/dto/dto_protein_expertcategories_axiom.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -33,12 +33,6 @@
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_001000020 -->
-
-    <owl:AnnotationProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_001000020"/>
-    
-
-
     <!-- http://www.drugtargetontology.org/dto/definition -->
 
     <owl:AnnotationProperty rdf:about="http://www.drugtargetontology.org/dto/definition"/>
@@ -53,179 +47,113 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100005 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100005"/>
+
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100006 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100006"/>
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_001000021 -->
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100010 -->
 
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_001000021">
-        <rdfs:label>is target development level of</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100010"/>
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000104 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000104"/>
+
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000105 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000105"/>
+
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000106 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000106"/>
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100005 -->
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100013 -->
 
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100005">
-        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100006"/>
-        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000105"/>
-        <rdfs:label>is expressed in tissue with at least some evidence from TISSUES</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100013"/>
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91001102 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91001102"/>
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91001103 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91001103"/>
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100013 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100013"/>
+
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100006 -->
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100014 -->
 
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100006">
-        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000104"/>
-        <rdfs:label>is expressed in tissue with at least weak evidence from TISSUES</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100014"/>
+	
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100015 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100015"/>
+	
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000177 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000177"/>
+	
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100056 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100056"/>
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100120 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100120"/>
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100010 -->
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100121 -->
 
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100010">
-        <rdfs:label>is gene template of</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100121"/>
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_001000104 -->
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100125 -->
 
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_001000104">
-        <rdfs:label>is expression location of gene with at least weak evidence from TISSUES</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100125"/>
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_001000105 -->
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100128 -->
 
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_001000105">
-        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000104"/>
-        <rdfs:label>is expression location of gene with at least some evidence from TISSUES</rdfs:label>
-    </owl:ObjectProperty>
-    
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100128"/>
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_001000106 -->
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000020 -->
 
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_001000106">
-        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000105"/>
-        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100056"/>
-        <rdfs:label>is expression location of gene with strong evidence from TISSUES</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_0010001101 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_0010001101">
-        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_0010001102"/>
-        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100013"/>
-        <dto:definition>weak evidence is considered for starScores between zero and 2.4 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
-        <rdfs:label>has associated gene with at least weak evidence from DISEASE</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_0010001102 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_0010001102">
-        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100014"/>
-        <dto:definition>some evidence is considered for starScores between 2.5 and 3.5 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
-        <rdfs:label>has associated gene with at least some evidence from DISEASE</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_0010001103 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_0010001103">
-        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_0010001101"/>
-        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100015"/>
-        <dto:definition>strong evidence is considered for starScores between 3.6 and 5 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
-        <rdfs:label>has associated gene with strong evidence from DISEASE</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100013 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100013">
-        <dto:definition>weak evidence is considered for starScores between zero and 2.4 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
-        <rdfs:label>has associated disease with at least weak evidence from DISEASES</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100014 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100014">
-        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100013"/>
-        <dto:definition>some evidence is considered for starScores between 2.5 and 3.5 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
-        <rdfs:label>has associated disease with at least some evidence from DISEASES</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100015 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100015">
-        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100014"/>
-        <dto:definition>strong evidence is considered for starScores between 3.6 and 5 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
-        <rdfs:label>has associated disease with strong evidence from DISEASES</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_001000177 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_001000177">
-        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100121"/>
-        <rdfs:label>is transported by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100056 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100056">
-        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100005"/>
-        <rdfs:label>is expressed in tissue with strong evidence from TISSUES</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100120 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100120">
-        <rdfs:label>has gating mechanism</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100121 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100121">
-        <rdfs:label>transports molecular entity</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100125 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100125">
-        <rdfs:label>binds molecular entity</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100128 -->
-
-    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_00100128">
-        <rdfs:label>has quality</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000020"/>
     
 
 
@@ -312,9 +240,9 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100128"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000020"/>
                         <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400003"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -330,9 +258,9 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100128"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000020"/>
                         <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400002"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -348,9 +276,9 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100128"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000020"/>
                         <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400202"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -366,9 +294,9 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100128"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000020"/>
                         <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400004"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -378,10 +306,10 @@
     
 
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00100000 -->
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000">
-        <rdfs:label>Protein</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+        <rdfs:label>protein</rdfs:label>
     </owl:Class>
     
 
@@ -436,7 +364,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_01300327"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100121"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100121"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22563"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -454,7 +382,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_01300327"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100121"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100121"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36916"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -472,7 +400,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_01300327"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100121"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100121"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17996"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -490,7 +418,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_01300327"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100120"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100120"/>
                         <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500646"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -508,7 +436,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_01300327"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100121"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100121"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29101"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -526,7 +454,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_01300327"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100120"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100120"/>
                         <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500647"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -550,7 +478,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_02300001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100125"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32952"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -568,7 +496,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_02300001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100125"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -588,7 +516,7 @@
                     <owl:Class>
                         <owl:complementOf>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100125"/>
+                                <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
                                 <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00000001"/>
                             </owl:Restriction>
                         </owl:complementOf>
@@ -608,7 +536,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_02300001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100125"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100125"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -617,81 +545,16 @@
     </owl:Class>
     
 
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_03390995 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_03390995">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000020"/>
-                <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400202"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_03390996 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_03390996">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000020"/>
-                <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400202"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_03390997 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_03390997">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000020"/>
-                <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400202"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_03390998 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_03390998">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000020"/>
-                <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400202"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_03390999 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_03390999">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_001000020"/>
-                <owl:someValuesFrom rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400202"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
+ 
     <!-- http://www.drugtargetontology.org/dto/DTO_05390001 -->
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_05390001">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100014"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100015"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -707,9 +570,9 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100014"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100015"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060037"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -725,9 +588,9 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_00100014"/>
+                        <owl:onProperty rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100015"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -735,7 +598,6 @@
         </owl:equivalentClass>
     </owl:Class>
     
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////

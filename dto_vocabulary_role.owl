@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!DOCTYPE rdf:RDF [
 <!ENTITY DTO "http://dto.org/DTO/" >
 <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
@@ -9,11 +10,13 @@
 <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 <!ENTITY dto "http://www.drugtargetontology.org/dto/" >
 <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-<!ENTITY core "http://purl.obolibrary.org/obo/uberon/core#" ><!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#">]>
-
-<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/vocabulary_role.owl#"
-	xml:base="http://www.drugtargetontology.org/dto/vocabulary_role.owl"
-	xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+<!ENTITY core "http://purl.obolibrary.org/obo/uberon/core#" >
+<!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+<!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#">]>
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_vocabulary_role.owl#"
+	xml:base="http://www.drugtargetontology.org/dto/dto_vocabulary_role.owl"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:life="http://www.lifekb.org/life#"
@@ -21,11 +24,35 @@
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:bto="&obo;bto#"
 	xmlns:obo="http://purl.obolibrary.org/obo/"
+	xmlns:dto="http://www.drugtargetontology.org/dto/"
 	xmlns:DTO="http://dto.org/DTO/"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/">
-	<owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/vocabulary_role.owl"/>
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_vocabulary_role.owl">
+		<owl:versionIRI rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_role.owl"/>
+		<rdfs:label>Drug Target Ontology</rdfs:label>
+		<rdfs:label>DTO</rdfs:label>
+		<owl:versionInfo>1.0</owl:versionInfo>
+		<dc:date>20 Jul 2017</dc:date>
+		<dc:contributor>Yu Lin, Saurabh Mehta, Hande Küçük- McGinty, John Paul Turner, Dusica Vidovic, Michele Forlin, Amar Koleti, Dac-Trung Nguyen, Lars Juhl Jensen, Rajarshi Guha, Stephen L. Mathias, Oleg Ursu, Vasileios Stathias, Jianbin Duan, Nooshin Nabizadeh, Caty Chung, Christopher Mader, Ubbo Visser, Jeremy J. Yang, Cristian G. Bologa, Tudor Oprea*, Stephan C. Schürer*</dc:contributor>
+		<rdfs:comment xml:lang="en">contact: Stephan Schurer:  stephan dot schurer at gmail dot com</rdfs:comment>
+		<dc:description>
+		Drug target ontology files Drug Target Ontology (DTO) is being developed at the University of Miami in the research group of Stephan Schürer. 
+		DTO is supported by grant U54CA189205 (Illuminating the Druggable Genome Knowledge Management Center, Tudor Oprea, PI) awarded by the NCI through
+		the NIH Common Fund. It is a component of the Illuminating the Druggable Genome (IDG) project (https://commonfund.nih.gov/idg). The DTO project 
+		develops a novel semantic framework to formalize knowledge about drug targets with a focus on the current IDG protein families. The DTO is developed
+		as a reference for drug targets with the longer-term goal to create a community standard that will facilitate the integration of diverse drug discovery
+		information from numerous heterogeneous resources. The first version of the DTO consists of asserted class hierarchies of the four IDG protein families,
+		GPCRs, kinases, ion channels, and nuclear hormone receptors. Protein classes are linked to tissue and disease via different levels of confidence. DTO 
+		also contains drug target development classifications, a large collection of cell lines from the LINCS project and relevant cell-disease and cell-tissue
+		relations. DTO is modeled in OWL2-DL to enable further classification by inference reasoning and SPARQL queries. DTO is implemented following a 
+		modularization approach. DTO will serve as the organizational framework for drug targets in the IDG PHAROS User Interface Portal (https://pharos.nih.gov).
+		</dc:description>
+		<dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+	</owl:Ontology>
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -33,18 +60,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-	<owl:Class rdf:about="&obo;CHEBI_50906">
-		<rdfs:label rdf:datatype="&xsd;string">Role</rdfs:label>
-	</owl:Class>
+	<!-- http://www.drugtargetontology.org/dto/DTO_00000003 -->
 
-	<owl:Class rdf:about="&obo;CHEBI_24432">
-		<rdfs:label rdf:datatype="&xsd;string">Biological role</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;CHEBI_50906"/>
-	</owl:Class>
-
-	<owl:Class rdf:about="&dto;DTO_00000003">
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000003">
 		<rdfs:label rdf:datatype="&xsd;string">Endogenous ligand role</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;CHEBI_24432"/>
+		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+		<obo:IAO_0000115>An Endogenous ligand is a molecule like protein, lipid, nucleoside, etc., that is produced in the body and that attaches (binds) to another protein called a receptor; receptor proteins have specific sites into which the ligands fit like keys into locks. Endogenous ligands not those that are introduced into the body, such as certain drugs.</obo:IAO_0000115>
+		<rdfs:isDefinedBy>https://ghr.nlm.nih.gov/primer/genefamily/endogenousligands</rdfs:isDefinedBy>
 	</owl:Class>
 
 </rdf:RDF>

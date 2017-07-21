@@ -1,41 +1,58 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/vocabulary_quality.owl#"
-     xml:base="http://www.drugtargetontology.org/dto/vocabulary_quality.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:life="http://www.lifekb.org/life#"
-     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:bto="http://purl.obolibrary.org/obo/bto#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:dto="http://www.drugtargetontology.org/dto/"
-     xmlns:DTO="http://dto.org/DTO/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/">
-    <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/vocabulary_quality.owl"/>
-    
+<!DOCTYPE rdf:RDF [
+<!ENTITY DTO "http://dto.org/DTO/" >
+<!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+<!ENTITY life "http://www.lifekb.org/life#" >
+<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+<!ENTITY obo "http://purl.obolibrary.org/obo/" >
+<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+<!ENTITY bto "http://purl.obolibrary.org/obo/bto#" >
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+<!ENTITY dto "http://www.drugtargetontology.org/dto/" >
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+<!ENTITY core "http://purl.obolibrary.org/obo/uberon/core#" >
+<!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+<!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#">]>
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_vocabulary_quality.owl#"
+	xml:base="http://www.drugtargetontology.org/dto/dto_vocabulary_quality.owl"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:life="http://www.lifekb.org/life#"
+	xmlns:core="&obo;uberon/core#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:bto="&obo;bto#"
+	xmlns:obo="http://purl.obolibrary.org/obo/"
+	xmlns:dto="http://www.drugtargetontology.org/dto/"
+	xmlns:DTO="http://dto.org/DTO/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_vocabulary_quality.owl">
+		<owl:versionIRI rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_quality.owl"/>
+		<rdfs:label>Drug Target Ontology</rdfs:label>
+		<rdfs:label>DTO</rdfs:label>
+		<owl:versionInfo>1.0</owl:versionInfo>
+		<dc:date>20 Jul 2017</dc:date>
+		<dc:contributor>Yu Lin, Saurabh Mehta, Hande Küçük- McGinty, John Paul Turner, Dusica Vidovic, Michele Forlin, Amar Koleti, Dac-Trung Nguyen, Lars Juhl Jensen, Rajarshi Guha, Stephen L. Mathias, Oleg Ursu, Vasileios Stathias, Jianbin Duan, Nooshin Nabizadeh, Caty Chung, Christopher Mader, Ubbo Visser, Jeremy J. Yang, Cristian G. Bologa, Tudor Oprea*, Stephan C. Schürer*</dc:contributor>
+		<rdfs:comment xml:lang="en">contact: Stephan Schurer:  stephan dot schurer at gmail dot com</rdfs:comment>
+		<dc:description>
+		Drug target ontology files Drug Target Ontology (DTO) is being developed at the University of Miami in the research group of Stephan Schürer. 
+		DTO is supported by grant U54CA189205 (Illuminating the Druggable Genome Knowledge Management Center, Tudor Oprea, PI) awarded by the NCI through
+		the NIH Common Fund. It is a component of the Illuminating the Druggable Genome (IDG) project (https://commonfund.nih.gov/idg). The DTO project 
+		develops a novel semantic framework to formalize knowledge about drug targets with a focus on the current IDG protein families. The DTO is developed
+		as a reference for drug targets with the longer-term goal to create a community standard that will facilitate the integration of diverse drug discovery
+		information from numerous heterogeneous resources. The first version of the DTO consists of asserted class hierarchies of the four IDG protein families,
+		GPCRs, kinases, ion channels, and nuclear hormone receptors. Protein classes are linked to tissue and disease via different levels of confidence. DTO 
+		also contains drug target development classifications, a large collection of cell lines from the LINCS project and relevant cell-disease and cell-tissue
+		relations. DTO is modeled in OWL2-DL to enable further classification by inference reasoning and SPARQL queries. DTO is implemented following a 
+		modularization approach. DTO will serve as the organizational framework for drug targets in the IDG PHAROS User Interface Portal (https://pharos.nih.gov).
+		</dc:description>
+		<dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+	</owl:Ontology>
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/definition -->
-
-    <owl:AnnotationProperty rdf:about="http://www.drugtargetontology.org/dto/definition"/>
-    
-
-
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -43,120 +60,102 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+	<!-- http://www.drugtargetontology.org/dto/DTO_00400001 -->
 
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400001">
+		<rdfs:label rdf:datatype="&xsd;string">Target development level</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+		<obo:IAO_0000115>target development level</obo:IAO_0000115>
+	</owl:Class>
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00400000 -->
+	<!-- http://www.drugtargetontology.org/dto/DTO_00400002 -->
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality</rdfs:label>
-    </owl:Class>
-    
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400002">
+		<rdfs:label rdf:datatype="&xsd;string">Tchem</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+		<obo:IAO_0000115>Tchem</obo:IAO_0000115>
+	</owl:Class>
 
+	<!-- http://www.drugtargetontology.org/dto/DTO_00400003 -->
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00400001 -->
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400003">
+		<rdfs:label rdf:datatype="&xsd;string">Tclin</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+		<obo:IAO_0000115>Tclin</obo:IAO_0000115>
+	</owl:Class>
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400001">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400000"/>
-        <dto:definition>target development level</dto:definition>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Target development level</rdfs:label>
-    </owl:Class>
-    
+	<!-- http://www.drugtargetontology.org/dto/DTO_00400004 -->
 
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400004">
+		<rdfs:label rdf:datatype="&xsd;string">Tdark</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+		<obo:IAO_0000115>Tdark</obo:IAO_0000115>
+	</owl:Class>
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00400002 -->
+	<!-- http://www.drugtargetontology.org/dto/DTO_00400005 -->
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400002">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
-        <dto:definition>Tchem</dto:definition>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tchem</rdfs:label>
-    </owl:Class>
-    
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400005">
+		<rdfs:label rdf:datatype="&xsd;string">Tgray</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+		<obo:IAO_0000115>Tgray</obo:IAO_0000115>
+	</owl:Class>
 
+	<!-- http://www.drugtargetontology.org/dto/DTO_00400006 -->
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00400003 -->
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400006">
+		<rdfs:label rdf:datatype="&xsd;string">Tmacro</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+		<obo:IAO_0000115>Tmacro</obo:IAO_0000115>
+	</owl:Class>
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400003">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
-        <dto:definition>Tclin</dto:definition>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tclin</rdfs:label>
-    </owl:Class>
-    
+	<!-- http://www.drugtargetontology.org/dto/DTO_00400202 -->
 
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400202">
+		<rdfs:label rdf:datatype="&xsd;string">Tbio</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
+	</owl:Class>
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00400004 -->
+	<!-- http://www.drugtargetontology.org/dto/DTO_00500646 -->
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400004">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
-        <dto:definition>Tdark</dto:definition>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tdark</rdfs:label>
-    </owl:Class>
-    
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500646">
+		<rdfs:label rdf:datatype="&xsd;string">Ligand-gated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
+		<obo:IAO_0000115>&quot;Ligand-gated&quot; is used in context to certain ion channel proteins. Ligand-gated ion channels (LICs, LGIC), also commonly referred as ionotropic receptors, are a group of transmembrane ion channel proteins which open to allow ions such as Na+, K+, Ca2+, and/or Cl? to pass through the membrane in response to the binding of a chemical messenger (i.e. a ligand), such as a neurotransmitter.</obo:IAO_0000115>
+	</owl:Class>
 
+	<!-- http://www.drugtargetontology.org/dto/DTO_00500647 -->
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00400009 -->
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500647">
+		<rdfs:label rdf:datatype="&xsd;string">Voltage-gated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
+		<obo:IAO_0000115>&quot;Voltage-gated&quot; is used in context to certain ion channel proteins. Ion channels that open or close in response to changes in the membrane potential are termed voltage-gated.</obo:IAO_0000115>
+		<rdfs:isDefinedBy>https://courses.washington.edu/conj/membrane/transport.htm</rdfs:isDefinedBy>
+	</owl:Class>
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400009">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400000"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudokinase</rdfs:label>
-    </owl:Class>
-    
+	<!-- http://www.drugtargetontology.org/dto/DTO_00500648 -->
 
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500648">
+		<rdfs:label rdf:datatype="&xsd;string">Mechanically-gated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
+		<obo:IAO_0000115>&quot;Mechanically-gated&quot; is used in context to certain ion channel proteins. Mechanically-gated ion channels are the channels that open in response to mechanical movement of adjacent structures.</obo:IAO_0000115>
+		<rdfs:isDefinedBy>https://courses.washington.edu/conj/membrane/transport.htm</rdfs:isDefinedBy>
+	</owl:Class>
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00400202 -->
+	<!-- http://www.drugtargetontology.org/dto/DTO_00500649 -->
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00400202">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tbio</rdfs:label>
-    </owl:Class>
-    
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500649">
+		<rdfs:label rdf:datatype="&xsd;string">Temperature-gated</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
+		<obo:IAO_0000115>&quot;Temperature-gated&quot; is used in context to certain ion channel proteins. These ion channels open with either an increase in temperature or decrease in temperature.</obo:IAO_0000115>
+		<rdfs:isDefinedBy>https://courses.washington.edu/conj/membrane/transport.htm</rdfs:isDefinedBy>
+	</owl:Class>
 
+	<!-- http://www.drugtargetontology.org/dto/DTO_00500669 -->
 
-    <!-- http://www.drugtargetontology.org/dto/DTO_00500646 -->
+	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500669">
+		<rdfs:label rdf:datatype="&xsd;string">Gating mechanism</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+		<obo:IAO_0000115>The mechanism for the inter-conversion of the open-and-closed states of an ion channel.</obo:IAO_0000115>
+	</owl:Class>
 
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500646">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligand-gated</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00500647 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500647">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voltage-gated</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00500648 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500648">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanically-gated</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00500649 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500649">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00500669"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temperature-gated</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.drugtargetontology.org/dto/DTO_00500669 -->
-
-    <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00500669">
-        <rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_00400000"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gating mechanism</rdfs:label>
-    </owl:Class>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
-

@@ -10,14 +10,15 @@
      xmlns:dto_vocabulary_kinase_domain="http://www.drugtargetontology.org/dto/dto_vocabulary_kinase_domain#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dto1="http://www.drugtargetontology.org/dto#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dto="http://www.drugtargetontology.org/dto/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_module_ic.owl">
         <owl:versionIRI rdf:resource="http://www.drugtargetontology.org/dto/dto_module_ic.owl"/>
-        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/vocabulary_ic_gene.owl"/>
+        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_ic_gene.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_properties.owl"/>
-        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/vocabulary_ic_protein.owl"/>
+        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_ic_protein.owl"/>
     </owl:Ontology>
 </rdf:RDF>
 

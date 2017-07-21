@@ -482,11 +482,6 @@
         <owl:equivalentClass rdf:resource="&obo;UBERON_0000997"/>
     </owl:Class>
 	
-	    <!-- http://purl.obolibrary.org/obo/BTO_0000042 -->
-
-    <owl:Class rdf:about="&obo;BTO_0000042">
-		<rdfs:subClassOf rdf:resource="&obo;UBERON_0001062"/>
-    </owl:Class>
   	    
     <!-- http://purl.obolibrary.org/obo/UBERON_0000002 -->
 
