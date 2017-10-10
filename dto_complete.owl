@@ -19,14 +19,14 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_complete.owl">
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_automated_axioms.owl"/>
-        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_core.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_external.owl"/>
+        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_core.owl"/>
         <rdfs:label>Drug Target Ontology</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</owl:versionInfo>
         <rdfs:label>DTO</rdfs:label>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:contributor>Yu Lin, Saurabh Mehta, Hande Küçük- McGinty, John Paul Turner, Dusica Vidovic, Michele Forlin, Amar Koleti, Dac-Trung Nguyen, Lars Juhl Jensen, Rajarshi Guha, Stephen L. Mathias, Oleg Ursu, Vasileios Stathias, Jianbin Duan, Nooshin Nabizadeh, Caty Chung, Christopher Mader, Ubbo Visser, Jeremy J. Yang, Cristian G. Bologa, Tudor Oprea*, Stephan C. Schürer*</dc:contributor>
-        <dc:date>20 Jul 2017</dc:date>
-        <owl:versionInfo>1.0</owl:versionInfo>
+        <dc:date>10 Oct 2017</dc:date>
         <dc:description>
 		Drug target ontology files Drug Target Ontology (DTO) is being developed at the University of Miami in the research group of Stephan Schürer. 
 		DTO is supported by grant U54CA189205 (Illuminating the Druggable Genome Knowledge Management Center, Tudor Oprea, PI) awarded by the NCI through

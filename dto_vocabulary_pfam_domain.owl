@@ -33,7 +33,7 @@
 		<rdfs:label>Drug Target Ontology</rdfs:label>
 		<rdfs:label>DTO</rdfs:label>
 		<owl:versionInfo>1.0</owl:versionInfo>
-		<dc:date>20 Jul 2017</dc:date>
+		<dc:date>9 Oct 2017</dc:date>
 		<dc:contributor>Yu Lin, Saurabh Mehta, Hande Küçük- McGinty, John Paul Turner, Dusica Vidovic, Michele Forlin, Amar Koleti, Dac-Trung Nguyen, Lars Juhl Jensen, Rajarshi Guha, Stephen L. Mathias, Oleg Ursu, Vasileios Stathias, Jianbin Duan, Nooshin Nabizadeh, Caty Chung, Christopher Mader, Ubbo Visser, Jeremy J. Yang, Cristian G. Bologa, Tudor Oprea*, Stephan C. Schürer*</dc:contributor>
 		<rdfs:comment xml:lang="en">contact: Stephan Schurer:  stephan dot schurer at gmail dot com</rdfs:comment>
 		<dc:description>
@@ -65,6 +65,7 @@
 	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_63000000">
 		<rdfs:label rdf:datatype="&xsd;string">pfam domain</rdfs:label>
 		<obo:IAO_0000115>The kinase domain information from the pfam database.</obo:IAO_0000115>
+		<obo:IAO_0000115>Pfam is a database of protein families that includes their annotations and multiple sequence alignments generated using hidden Markov models</obo:IAO_0000115>
 	</owl:Class>
 
 	<!-- http://www.drugtargetontology.org/dto/DTO_63000002 -->
@@ -72,6 +73,7 @@
 	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_63000002">
 		<rdfs:label rdf:datatype="&xsd;string">ABC1</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_63000000"/>
+		<obo:IAO_0000115>ABC1 family</obo:IAO_0000115>
 	</owl:Class>
 
 	<!-- http://www.drugtargetontology.org/dto/DTO_63000003 -->
@@ -79,6 +81,7 @@
 	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_63000003">
 		<rdfs:label rdf:datatype="&xsd;string">Alpha_kinase</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_63000000"/>
+		<obo:IAO_0000115>Alpha-kinase family</obo:IAO_0000115>
 	</owl:Class>
 
 	<!-- http://www.drugtargetontology.org/dto/DTO_63000004 -->
@@ -86,6 +89,7 @@
 	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_63000004">
 		<rdfs:label rdf:datatype="&xsd;string">PI3_PI4_kinase</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_63000000"/>
+		<obo:IAO_0000115>Phosphatidylinositol 3- and 4-kinase</obo:IAO_0000115>
 	</owl:Class>
 
 	<!-- http://www.drugtargetontology.org/dto/DTO_63000005 -->
@@ -93,6 +97,7 @@
 	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_63000005">
 		<rdfs:label rdf:datatype="&xsd;string">PIP5K</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_63000000"/>
+		<obo:IAO_0000115>Phosphatidylinositol-4-phosphate 5-Kinase</obo:IAO_0000115>
 	</owl:Class>
 
 	<!-- http://www.drugtargetontology.org/dto/DTO_63000006 -->
@@ -100,6 +105,7 @@
 	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_63000006">
 		<rdfs:label rdf:datatype="&xsd;string">Pkinase</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_63000000"/>
+		<obo:IAO_0000115>Protein kinase domain</obo:IAO_0000115>
 	</owl:Class>
 
 	<!-- http://www.drugtargetontology.org/dto/DTO_63000007 -->
@@ -107,6 +113,7 @@
 	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_63000007">
 		<rdfs:label rdf:datatype="&xsd;string">Pkinase_Tyr</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_63000000"/>
+		<obo:IAO_0000115>Protein tyrosine kinase</obo:IAO_0000115>
 	</owl:Class>
 
 	<!-- http://www.drugtargetontology.org/dto/DTO_63000008 -->
@@ -114,6 +121,7 @@
 	<owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_63000008">
 		<rdfs:label rdf:datatype="&xsd;string">RIO1</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_63000000"/>
+		<obo:IAO_0000115>RIO1 family</obo:IAO_0000115>
 	</owl:Class>
 
 </rdf:RDF>

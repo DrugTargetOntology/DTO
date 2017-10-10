@@ -17,8 +17,8 @@
     <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_module_chebi.owl">
         <owl:versionIRI rdf:resource="http://www.drugtargetontology.org/dto/dto_module_chebi.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_properties.owl"/>
+        <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_chebi_axiom.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/CHEBI_import.owl"/>
-        <owl:imports rdf:resource="http://www.drugtargetontology/dto/dto_chebi_axiom.owl"/>
     </owl:Ontology>
 </rdf:RDF>
 
