@@ -17,7 +17,6 @@
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_module_ic.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_properties.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_module_kinase_domain.owl"/>
-        <owl:imports rdf:resource="http://www.drugtargetontology/dto/dto_protein_expertcategories_axiom.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_protein_expertcategories.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_module_gpcr.owl"/>
         <owl:imports rdf:resource="http://www.drugtargetontology.org/dto/dto_vocabulary_role.owl"/>
