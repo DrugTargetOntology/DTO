@@ -71,6 +71,7 @@
 
     <owl:Class rdf:about="http://www.drugtargetontology.org/dto/DTO_00000018">
         <rdfs:label>BRENDA tissues and cell lines</rdfs:label>
+		<obo:IAO_0000115>An umbrella term created for tissues and cell lines imported from BRENDA ontology.</obo:IAO_0000115>
     </owl:Class>
 
 

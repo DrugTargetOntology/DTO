@@ -610,9 +610,6 @@
     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_0010001109">
         <rdfs:label>derives from organ</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00200000">
-        <rdfs:label>Gene</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/RO_0000087">
         <rdfs:label>has role</rdfs:label>
     </rdf:Description>

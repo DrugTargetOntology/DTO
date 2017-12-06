@@ -427,6 +427,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00200000">
         <rdfs:label>Gene</rdfs:label>
+		<obo:IAO_0000115>A genomic sequence, which is the unit of heredity of a living organism. It consists of regulatory regions and transcribed regions.</obo:IAO_0000115>
     </rdf:Description>
 </rdf:RDF>
 
