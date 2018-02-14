@@ -48,7 +48,7 @@
 		relations. DTO is modeled in OWL2-DL to enable further classification by inference reasoning and SPARQL queries. DTO is implemented following a 
 		modularization approach. DTO will serve as the organizational framework for drug targets in the IDG PHAROS User Interface Portal (https://pharos.nih.gov).
 		</dc:description>
-		<dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+		<dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
 	</owl:Ontology>
 
 
